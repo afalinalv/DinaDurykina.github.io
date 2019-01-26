@@ -49,14 +49,14 @@
 						"background": "#A9A9A9"	},
 						"items": [{
 							"image": "https://img.icons8.com/material/18/000000/copy-2.png",
-							"text": "Note",
+							"text": "Cart",
        						 "style": {
          					 "height": "12"
 								},
-							"url":"https://github.com/DinaDurykina/my_json/blob/master/SevenStringBrazukaFAQ.json"
+							"url":"https://DinaDurykina.github.io/bagteh.json"
 								}, {
 							"image": "https://img.icons8.com/material-rounded/24/000000/translation.png",
-							"text": "Translate",
+							"text": "Buy",
        						 "style": {
          					 "height": "12"
 								},
