@@ -1,0 +1,19 @@
+{
+  "$jason": {
+    "head": {
+      "title": "wrap",
+      "actions": { "$load": { "type": "$render" } }
+    },
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://yandex.ru/",
+            "action": { "type": "$default" }
+          }
+        }
+  }
+}
+
+
+
+    

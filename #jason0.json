@@ -1,0 +1,22 @@
+{
+  "$jason": {
+    "head": {
+      "title": "wrap",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://####.###/",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }   
+}
+
+    
