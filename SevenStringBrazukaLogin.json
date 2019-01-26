@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "login",
+	    "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://www.brazuka.ru/kabinet/",
+            "action": { "trigger": "navigate" }
+         }
+        }   
+      }   
+    }   
+  }   
+}

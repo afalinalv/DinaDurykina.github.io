@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "video",
+	    "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "https://vk.com/brazukadanceschool?z=video-18284267_456239141%2Fb6e5898b81ac721432%2Fpl_wall_-18284267",
+            "action": { "trigger": "navigate" }
+         }
+        }   
+      }   
+    }   
+  }   
+}
