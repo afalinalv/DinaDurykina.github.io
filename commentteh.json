@@ -1,0 +1,19 @@
+{
+  "$jason": {
+    "head": {
+      "title": "copy2teh",
+      "actions": { "$load": { "type": "$render" } }
+    },
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "https://www.kakprosto.ru/kak-73780-kak-dobavit-kommentarii-k-faylu",
+            "action": { "type": "$default" }
+          }
+        }
+  }
+}
+
+
+
+    
