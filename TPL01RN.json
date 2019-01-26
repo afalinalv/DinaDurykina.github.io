@@ -41,7 +41,7 @@
 							/*this button  when pressed translates the contents of the screen to the language 
 							set by the main on the phone and writes to the toast that translates to such a language.*/
 							 {
-							"image": "https://img.icons8.com/material-rounded/24/000000/comments.png",
+							"image": "https://DinaDurykina.github.io/comments.png",
 							"text": "Comment",
        						 	"style": {
          					 	"height": "21"
