@@ -7,7 +7,7 @@
         "body": {
           "background": {
             "type": "html",
-            "url": "https://ru.wikipedia.org/wiki/JSON",
+            "url": "https://takengo.ru/zakaz-kuryera",
             "action": { "type": "$default" }
           }
         }
