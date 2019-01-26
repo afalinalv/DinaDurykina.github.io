@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "TemplateReactiveNews",
+      "title": "TemplateReactiveSales",
 	/*the template is designed for any news, text, event pages and websites*/
       "actions": {
         "$load":    { "type": "$render" },
