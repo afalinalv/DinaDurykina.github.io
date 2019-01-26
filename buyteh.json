@@ -1,0 +1,19 @@
+{
+  "$jason": {
+    "head": {
+      "title": "copy2teh",
+      "actions": { "$load": { "type": "$render" } }
+    },
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "https://online.sberbank.ru/CSAFront/index.do",
+            "action": { "type": "$default" }
+          }
+        }
+  }
+}
+
+
+
+    
