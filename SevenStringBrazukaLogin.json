@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "login",
+      "title": "kontakt",
 	    "actions": {
         "$load":    { "type": "$render" },
         "navigate": {"type": "$default" }
@@ -10,7 +10,7 @@
         "body": {
           "background": {
             "type": "html",
-            "url": "http://www.brazuka.ru/kabinet/",
+            "url": "http://www.brazuka.ru/kontakty/",
             "action": { "trigger": "navigate" }
          }
         }   
