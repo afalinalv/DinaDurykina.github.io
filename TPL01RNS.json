@@ -20,8 +20,8 @@
 					"style": {
 						"background": "#A9A9A9"	},
 						"items": [{
-							"image": "https://img.icons8.com/material-sharp/24/000000/copy-2.png",
-							"text": "Note",
+							"image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
+							"text": "Bag",
        						 	"style": {
          					 	"height": "21"
 								},
@@ -32,7 +32,7 @@
 							screen is placed there.*/
 								 {
 							"image": "https://img.icons8.com/material-rounded/24/000000/translation.png",
-							"text": "Translate",
+							"text": "Buy",
        						 	"style": {
          					 	"height": "21"
 								},
