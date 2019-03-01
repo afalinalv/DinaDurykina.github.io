@@ -1,0 +1,114 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Calculator APP4WEB",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        },
+        "padded": {
+          "padding": "10"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "CALCULATION APP4WEB",
+        "style": {
+          "background": "#0000CD",
+          "color": "#ffffff",
+          "font": "AvenirNext-Bold",
+          "size": "14"
+        }
+      },
+      "sections": [
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Platform"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "Which platform will the app be built on?"
+            }]
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "Android",
+              "class": "bold padded",
+              "icon": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
+            },
+            {
+              "type": "label",
+              "text": "IOS",
+              "class": "bold padded",
+              "icon": "https://DinaDurykina.github.io/icons8-ос-mac-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Windows",
+              "class": "bold padded",
+              "icon": "https://DinaDurykina.github.io/icons8-windows-8-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Hybrid",
+              "class": "bold padded",
+              "icon": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
+              },
+            {
+              "type": "label",
+              "text": "Other",
+              "class": "bold padded",
+              "icon": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            }
+          ]
+        },
+        {
+          "head": {
+            "title": "Rectangle Button"
+          },
+          "body": {
+            "sections": [{
+              "items": [{
+                "type": "vertical",
+                "style": {
+                  "align": "center"
+                },
+                "components": [{
+                  "type": "button",
+                  "style": {
+                    "width": "200",
+                    "height": "100",
+                    "background": "#0000CD",
+                    "color": "#ffffff",
+                    "font": "HelveticaNeue-Bold",
+                    "size": "15"
+                  },
+                  "text": "NEXT"
+                }]
+              }]
+            }]
+          }
+        }
+      ]
+    }
+  }
+}
