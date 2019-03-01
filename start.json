@@ -1,0 +1,77 @@
+{
+  "$jason": {
+    "head": {
+      "title": "START",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "30",
+                "spacing": "20",
+                "align": "center"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "text": "START",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier-Bold",
+                    "size": "18"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "Это отладочный стартовый Json",
+                  "style": {
+                    "align": "center",
+                    "font": "Courier",
+                    "padding": "30",
+                    "size": "14"
+                  }
+                },
+                {
+                  "type": "label",
+                  "text": "START",
+                  "style": {
+                    "align": "center",
+                    "font": "HelveticaNeue-Bold",
+                    "size": "50"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "style": {
+                "align": "right",
+                "padding": "10",
+                "color": "#000000",
+                "font": "HelveticaNeue",
+                "size": "12"
+              },
+              "text": "Проверка JSON",
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/demo.json",
+                "fresh": "true"
+              }
+            }
+           ]
+        }
+      ]
+    }
+  }
+}

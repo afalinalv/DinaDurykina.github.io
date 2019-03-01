@@ -1,0 +1,20 @@
+KEY_RECLAMA:
+0- ЕСЛИ РЕКЛАМЫ НЕТ
+1- AdMob BANNER: id BANNER ca-app-pub-4136371087370112/2298996526; ID APP ca-app-pub-4136371087370112~6171379650
+2- <МОЙ БАННЕР> HTTP
+3- Реклама от другой сети
+
+KEY_TEMPLATE: вызов из меню
+1- DEFAULT: 		http://DinaDurykina.github.io/#jason.json
+2- Native: 		http://DinaDurykina.github.io/TPL01RN.json
+3- Reactive:		http://DinaDurykina.github.io/TPL01RNS.json
+4- Reactive Native1:	http://DinaDurykina.github.io/TPL011NNS.json
+5- Reactive Native2:	http://DinaDurykina.github.io/TPL011NN.json
+6- Reactive Native3:	http://DinaDurykina.github.io/TPL011NNFAB.json
+7- Reactive Native4:	http://DinaDurykina.github.io/TPL011NNFABS.json
+
+KEY_SEARCH:
+0- KEY_ICON
+1- info 1 Toast
+2- info 2 Snekbar
+3- info 3 Push уведомление
