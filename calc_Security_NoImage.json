@@ -129,14 +129,14 @@
               {
                 "type": "label",
                 "class": "normal",
-                "text": "Select one or more Platforms and click"
+                "text": "Select user authentication settings and how you want to protect the application, and then click"
               },
               {
                 "type": "label",
                 "text": "NEXT",
                 "class": "bold",
                 "href": {
-                  "url": "https://DinaDurykina.github.io/brazuka.json",
+                  "url": "https://DinaDurykina.github.io/calc_Data_NoImage.json",
                   "transition": "modal"
                 }
               }
