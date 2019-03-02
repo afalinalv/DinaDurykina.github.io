@@ -55,12 +55,12 @@
             }]
           },
           "items": [
-            [{"type": "label",
-              "text": "Android"},
-              { "type": "image",
-                "url":"https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"},
-              {"class": "bold padded"
-           }],
+            {"type": "label",
+              "text": "Android",
+              "type": "image",
+              "url":"https://DinaDurykina.github.io/icons8-операционная-система-android-24.png",
+              "class": "bold padded"
+           },
             {
               "type": "label",
               "text": "IOS",
