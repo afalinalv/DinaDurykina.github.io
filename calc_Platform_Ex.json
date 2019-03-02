@@ -52,7 +52,8 @@
             {
               "type": "label",
               "text": "Android",
-              "class": "bold padded"
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
               },
             {
               "type": "label",
