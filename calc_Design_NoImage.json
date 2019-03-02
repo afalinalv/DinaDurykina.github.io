@@ -94,25 +94,25 @@
           },
           "items": [{
             "type": "label",
-            "text": "Other",
+            "text": "1 - 6",
             "class": "bold padded",
             "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
           },
             {
               "type": "label",
-              "text": "Other",
+              "text": "7 - 12",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             },
             {
               "type": "label",
-              "text": "Other",
+              "text": "13 - 20",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             },
             {
               "type": "label",
-              "text": "Other",
+              "text": "21+",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             }]
