@@ -82,8 +82,7 @@
           ]
         },
         {
-          "body": {
-            "sections": [{
+           "sections": [{
               "items": [{
                 "type": "vertical",
                 "style": {
@@ -104,8 +103,7 @@
               }]
             }]
           }
-        }
-      ]
+              ]
     }
   }
 }
