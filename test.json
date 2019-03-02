@@ -58,11 +58,6 @@
             {
               "type": "label",
               "text": "Android",
-              "style": {
-                "font": "San Francisco Pro",
-                "size": "15",
-                "color": "rgb(47,79,79)",
-                "padding": "15",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
             },
