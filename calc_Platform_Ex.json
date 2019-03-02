@@ -99,7 +99,8 @@
                 "text": "NEXT",
                 "class": "bold",
                 "href": {
-                  "url": "https://DinaDurykina.github.io/brazuka.json"
+                  "url": "https://DinaDurykina.github.io/brazuka.json",
+                  "transition": "modal"
                 }
               }
             ]
