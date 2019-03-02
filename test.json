@@ -103,6 +103,11 @@
               {
                 "type": "label",
                 "text": "NEXT",
+                "style": {
+                  "font": "San Francisco Pro",
+                  "size": "25",
+                  "color": "rgb(0,0,128)",
+                  "padding": "5",
                 "class": "bold",
                 "href": {
                   "url": "https://DinaDurykina.github.io/calc_Design_NoImage.json",
