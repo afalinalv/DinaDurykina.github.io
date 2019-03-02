@@ -1,0 +1,150 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Calculator APP4WEB",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        },
+        "padded": {
+          "padding": "10"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "CALCULATION APP4WEB",
+        "style": {
+          "background": "#0000CD",
+          "color": "#ffffff",
+          "font": "AvenirNext-Bold",
+          "size": "14"
+        }
+      },
+      "sections": [
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Security"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "How will your users sign up and login into the app?"
+            }]
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "Email ID and Password",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Via Social Networks",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-ос-mac-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Using 2 Step Authorization",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-windows-8-24.png"
+            },
+            {
+              "type": "label",
+              "text": "No Sign Up Required",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
+            }
+          ]
+        },
+
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Security"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "How do you wish to secure your app??"
+            }]
+          },
+          "items": [{
+            "type": "label",
+            "text": "Security Not Important",
+            "class": "bold padded",
+            "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+          },
+            {
+              "type": "label",
+              "text": "Basic Security Measures",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Encrypted Communication",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Complete Protection",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            }]
+        },
+
+        {
+
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [
+              {
+                "type": "label",
+                "class": "normal",
+                "text": "Select one or more Platforms and click"
+              },
+              {
+                "type": "label",
+                "text": "NEXT",
+                "class": "bold",
+                "href": {
+                  "url": "https://DinaDurykina.github.io/brazuka.json",
+                  "transition": "modal"
+                }
+              }
+            ]
+          }
+
+        }
+      ]
+    }
+  }
+}
