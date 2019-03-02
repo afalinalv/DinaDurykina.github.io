@@ -61,8 +61,8 @@
               "style": {
                 "width": "27",
                 "height": "27",
-                "corner_radius": "2",
-                "padding": "5"},
+                "corner_radius": "2"
+                },
               "class": "bold padded"
            },
             {
