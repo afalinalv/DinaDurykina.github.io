@@ -50,15 +50,11 @@
           },
           "items": [
             {
-              "components": [{
-                "type": "label",
-                "text": "Android",
-                "class": "bold padded"
-              }, {
-                "type": "image",
-                "url": "https://DinaDurykina.github.io/icons8-операционная-система-android-12.png"
-              }]
-            },
+              "type": "label",
+              "text": "Android",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-12.png"
+              },
             {
               "type": "label",
               "text": "IOS",
