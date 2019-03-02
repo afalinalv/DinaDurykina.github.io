@@ -72,12 +72,6 @@
               "text": "Game Animations",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
-            },
-            {
-              "type": "label",
-              "text": "Other",
-              "class": "bold padded",
-              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
             }
           ]
         },
@@ -91,28 +85,37 @@
             "components": [{
               "type": "label",
               "class": "bold",
-              "text": "Showcase"
+              "text": "Screens"
             }, {
               "type": "label",
               "class": "normal",
-              "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
+              "text": "How many approximate number of screens will your app have?"
             }]
           },
           "items": [{
             "type": "label",
-            "text": "Instagram",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }, {
-            "type": "label",
-            "text": "Twitter",
-            "href": {
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json",
-              "transition": "modal"
-            }
-          }]
+            "text": "Other",
+            "class": "bold padded",
+            "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+          },
+            {
+              "type": "label",
+              "text": "Other",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Other",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Other",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            }]
         },
 
         {
