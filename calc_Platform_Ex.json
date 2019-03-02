@@ -92,12 +92,15 @@
               {
                 "type": "label",
                 "class": "normal",
-                "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
+                "text": "Select one or more Platforms and click"
               },
               {
                 "type": "label",
+                "text": "NEXT",
                 "class": "bold",
-                "text": "Showcase"
+                "href": {
+                  "url": "https://DinaDurykina.github.io/brazuka.json"
+                }
               }
             ]
           }
