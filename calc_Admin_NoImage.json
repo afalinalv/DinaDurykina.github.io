@@ -1,0 +1,176 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Calculator APP4WEB",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        },
+        "padded": {
+          "padding": "10"
+        },
+        "normal": {
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": "CALCULATION APP4WEB",
+        "style": {
+          "background": "#0000CD",
+          "color": "#ffffff",
+          "font": "AvenirNext-Bold",
+          "size": "14"
+        }
+      },
+      "sections": [
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Admin & Other Features"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "Which administration features do you need?"
+            }]
+          },
+          "items": [
+            {
+              "type": "label",
+              "text": "User Management",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Content Management",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-ос-mac-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Reporting and Analytics",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-windows-8-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Notification Control",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
+            }
+          ]
+        },
+
+        {
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [{
+              "type": "label",
+              "class": "bold",
+              "text": "Other features"
+            }, {
+              "type": "label",
+              "class": "normal",
+              "text": "Which other features will you have in your app?"
+            }]
+          },
+          "items": [{
+            "type": "label",
+            "text": "Activity feeds or user walls",
+            "class": "bold padded",
+            "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+          },
+            {
+              "type": "label",
+              "text": "In-app purchases",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Shopping Cart",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Search",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Referral system",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Chatting",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Rating & reviews (Yelp)",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            },
+            {
+              "type": "label",
+              "text": "Integration",
+              "class": "bold padded",
+              "image": "https://DinaDurykina.github.io/icons8-глобус-24.png"
+            }
+
+          ]
+        },
+
+        {
+
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [
+              {
+                "type": "label",
+                "class": "normal",
+                "text": "Select application administration and advanced features, and then click"
+              },
+              {
+                "type": "label",
+                "text": "NEXT",
+                "class": "bold",
+                "href": {
+                  "url": "https://DinaDurykina.github.io/calc_Platform_NoImage.json",
+                  "transition": "modal"
+                }
+              }
+            ]
+          }
+
+        }
+      ]
+    }
+  }
+}
