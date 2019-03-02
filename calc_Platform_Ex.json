@@ -82,28 +82,26 @@
           ]
         },
         {
-           "sections": [{
-              "items": [{
-                "type": "vertical",
-                "style": {
-                  "align": "center"
-                },
-                "components": [{
-                  "type": "button",
-                  "style": {
-                    "width": "200",
-                    "height": "100",
-                    "background": "#0000CD",
-                    "color": "#ffffff",
-                    "font": "HelveticaNeue-Bold",
-                    "size": "15"
-                  },
-                  "text": "NEXT"
-                }]
-              }]
-            }]
+          "header": {
+            "type": "vertical",
+            "style": {
+              "background": "#ebebeb"
+            },
+            "components": [
+              {
+                "type": "label",
+                "class": "bold",
+                "text": "Showcase"
+              },
+              {
+                "type": "label",
+                "class": "normal",
+                "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
+              }
+            ]
           }
-              ]
+        }
+      ]
     }
   }
 }
