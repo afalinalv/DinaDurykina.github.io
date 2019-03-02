@@ -59,9 +59,10 @@
               "text": "Android",
               "url":"https://DinaDurykina.github.io/icons8-операционная-система-android-24.png",
               "style": {
-                "width": "10",
-                "height": "10",
-                "corner_radius": "2"},
+                "width": "7",
+                "height": "7",
+                "corner_radius": "2",
+                "padding": "5"},
               "class": "bold padded"
            },
             {
