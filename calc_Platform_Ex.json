@@ -50,11 +50,15 @@
           },
           "items": [
             {
-              "type": "label",
-              "text": "Android",
-              "class": "bold padded",
-              "image": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
-              },
+              "components": [{
+                "type": "label",
+                "text": "Android",
+                "class": "bold padded"
+              }, {
+                "type": "image",
+                "url": "https://DinaDurykina.github.io/icons8-операционная-система-android-24.png"
+              }]
+            },
             {
               "type": "label",
               "text": "IOS",
@@ -72,7 +76,7 @@
               "text": "Hybrid",
               "class": "bold padded",
               "image": "https://DinaDurykina.github.io/icons8-шаблон-24.png"
-              },
+            },
             {
               "type": "label",
               "text": "Other",
