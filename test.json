@@ -46,7 +46,7 @@
                 "font": "San Francisco Pro",
                 "size": "25",
                 "color": "rgb(0,0,128)",
-                "padding": "60"
+                "padding": "5"
               }
             }, {
               "type": "label",
