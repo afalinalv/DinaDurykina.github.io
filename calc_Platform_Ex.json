@@ -91,13 +91,13 @@
             "components": [
               {
                 "type": "label",
-                "class": "bold",
-                "text": "Showcase"
+                "class": "normal",
+                "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
               },
               {
                 "type": "label",
-                "class": "normal",
-                "text": "Wrote a cool/useful JSON markup? Send a pull request to https://github.com/Jasonette/Jasonpedia"
+                "class": "bold",
+                "text": "Showcase"
               }
             ]
           }
