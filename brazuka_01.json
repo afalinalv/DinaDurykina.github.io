@@ -15,19 +15,18 @@
           "header": {
             "title": {
               "type": "image",
-              "style": {
+                "style": {
                 "align": "left",
                 "left": "20",
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
+              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
+              "action": {
+                "type": "$util.toast",
+                "options": {
+                  "text":"Бразильские танцы"}
             },
-            "action": {
-              "type": "$util.toast",
-              "options": {
-                "text": "Бразильские танцы нон-стоп"
-              },
               "menu": {
                 "text": "Dance School, Russia, Moskva",
                 "style": {
