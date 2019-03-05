@@ -9,8 +9,8 @@
       "templates": {
         "body": {
           "header": {
-            "title": [{
-              "type": "image",
+            "title": {
+              /*"type": "image",
               "style": {
                 "align": "left",
                 "left": "20",
@@ -19,7 +19,7 @@
                 "background": "#A9A9A9"
               },
               "url": "https://DinaDurykina.github.io/squared-menu.png"},
-              {
+              {*/
                 "type": "image",
                 "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
                 "style": {
@@ -28,7 +28,7 @@
                   "width": "wrap_content",
                   "height": "50"
                 }
-              }],
+              },
             "menu": {
               "text": "Расписание",
               "style": {
