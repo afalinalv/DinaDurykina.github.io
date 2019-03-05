@@ -36,13 +36,13 @@
                 "font": "HelveticaNeue-Bold",
                 "size": "12"
               },
-              "url": "https://DinaDurykina.github.io/7string.json"
-              /*"action": {
+              "url": "https://DinaDurykina.github.io/7string.json",
+              "action": {
                 "type": "$util.toast",
                 "options": {
                   "text": "Good job!"
                 }
-              }*/
+              }
             }
           },
           "background": {
@@ -50,7 +50,6 @@
             "url": "http://www.brazuka.ru/",
             "action": { "trigger": "navigate" }
           },
-          /*floating button on top of the site page*/
           "layers": [
             {
               "type": "image",
@@ -63,7 +62,6 @@
                 "width": "80",
                 "height": "80",
                 "align": "center",
-                /*"size": "30",*/
                 "corner_radius": "50"
               },
               "action": {
