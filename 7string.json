@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "raspisanie",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://www.brazuka.ru/raspisanie/",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }
+}
