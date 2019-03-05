@@ -48,16 +48,14 @@
             "layers": [
               {
                 "type": "image",
-                "url": "https://DinaDurykina.github.io/phone_14402.png",
+                "url": "https://DinaDurykina.github.io/whichapplication_conversation_email_phone_7097.png",
                 "style": {
                   "bottom": "90",
                   "right": "30",
-
-
-                  "width": "70",
-                  "height": "70",
+                  "width": "60",
+                  "height": "60",
                   "align": "center",
-                  "corner_radius": "45"
+                  "corner_radius": "40"
                 },
                 "action": {
                   "type": "$back"
