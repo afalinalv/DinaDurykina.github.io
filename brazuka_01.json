@@ -54,8 +54,8 @@
                   "right": "50",
                   "background": "#ff0000",
                   "color": "#ffffff",
-                  "width": "80",
-                  "height": "80",
+                  "width": "180",
+                  "height": "180",
                   "align": "center",
                   "corner_radius": "50"
                 },
