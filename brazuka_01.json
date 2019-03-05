@@ -3,8 +3,12 @@
     "head": {
       "title": "BRAZUKA",
       "actions": {
-        "$load":    { "type": "$render" },
-        "navigate": {"type": "$default" }
+        "$load": {
+          "type": "$render"
+        },
+        "navigate": {
+          "type": "$default"
+        }
       },
       "templates": {
         "body": {
@@ -17,73 +21,86 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"},
-              "menu": {
-              "text": "Dance School, Russia, Moskva",
-              "style": {
-                "color": "#0000ff",
-                "font": "HelveticaNeue-Bold",
-                "size": "12"
+              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
+            },
+            "action": {
+              "type": "$util.toast",
+              "options": {
+                "text": "Бразильские танцы нон-стоп"
               },
-              "action": {
-                "type": "$util.toast",
-                "options": {
-                  "text": "Гамсоновский пер., дом 2с1 — Бизнес-центр «Центр Т»,\n1 подъезд (самый первый подъезд, который вы видите, при входе на территорию бизнес-центра)\n3 этаж, помещение №403.\nм. Тульская (3 мин. пешком)\nНа проходной говорите : «на танцы».\nС собой взять документ (паспорт/вод.права/студенческий)!"
+              "menu": {
+                "text": "Dance School, Russia, Moskva",
+                "style": {
+                  "color": "#0000ff",
+                  "font": "HelveticaNeue-Bold",
+                  "size": "12"
+                },
+                "action": {
+                  "type": "$util.toast",
+                  "options": {
+                    "text": "Гамсоновский пер., дом 2с1 — Бизнес-центр «Центр Т»,\n1 подъезд (самый первый подъезд, который вы видите, при входе на территорию бизнес-центра)\n3 этаж, помещение №403.\nм. Тульская (3 мин. пешком)\nНа проходной говорите : «на танцы».\nС собой взять документ (паспорт/вод.права/студенческий)!"
+                  }
                 }
               }
-            }
-          },
-          "background": {
-            "type": "html",
-            "url": "http://www.brazuka.ru/",
-            "action": { "trigger": "navigate" }
-          },
-          "layers": [
-            {
-              "type": "image",
-              "url": "https://DinaDurykina.github.io/ringer-volume.png",
-              "style": {
-                "bottom": "90",
-                "right": "20",
-                "background": "#ff0000",
-                "color": "#ffffff",
-                "width": "80",
-                "height": "80",
-                "align": "center",
-                "corner_radius": "50"
-              },
+            },
+            "background": {
+              "type": "html",
+              "url": "http://www.brazuka.ru/",
               "action": {
-                "type": "$back"
+                "trigger": "navigate"
               }
-            }
-          ],
-
-          "footer": {
-            "tabs": {
-              "style": {
-                "background": "#A9A9A9"	},
-              "items": [{
-                "image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
-                "text": "Cart",
+            },
+            "layers": [
+              {
+                "type": "image",
+                "url": "https://DinaDurykina.github.io/ringer-volume.png",
                 "style": {
-                  "height": "12"
+                  "bottom": "90",
+                  "right": "20",
+                  "background": "#ff0000",
+                  "color": "#ffffff",
+                  "width": "80",
+                  "height": "80",
+                  "align": "center",
+                  "corner_radius": "50"
                 },
-                "url":"https://DinaDurykina.github.io/bagteh.json"
-              }, {
-                "image": "https://DinaDurykina.github.io/icons8-buy-24.png",
-                "text": "Pay",
+                "action": {
+                  "type": "$back"
+                }
+              }
+            ],
+            "footer": {
+              "tabs": {
                 "style": {
-                  "height": "12"
+                  "background": "#A9A9A9"
                 },
-                "url":"https://DinaDurykina.github.io/buyteh.json"
-              }, {
-                "image": "https://DinaDurykina.github.io/icons8-truck-24.png",
-                "text": "Delivery",
-                "style": {
-                  "height": "12"
-                },
-                "url":"https://DinaDurykina.github.io/truckteh.json"
-              }]
+                "items": [
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
+                    "text": "Cart",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/bagteh.json"
+                  },
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-buy-24.png",
+                    "text": "Pay",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/buyteh.json"
+                  },
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-truck-24.png",
+                    "text": "Delivery",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/truckteh.json"
+                  }
+                ]
+              }
             }
           }
         }
