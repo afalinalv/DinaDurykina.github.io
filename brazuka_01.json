@@ -21,13 +21,14 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
-            },
+              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
+
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text":"Бразильские танцы"}
-
+                  "text": "Бразильские танцы"
+                }
+              }
             },
 
               "menu": {
