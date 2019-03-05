@@ -23,7 +23,10 @@
                 "type": "image",
                 "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
                 "style": {
-                  "align": "center"}
+                  "align": "center",
+                  "width": "70",
+                  "height": "50"
+                }
               }],
             "menu": {
               "text": "Расписание",
