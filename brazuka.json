@@ -9,31 +9,40 @@
       "templates": {
         "body": {
           "header": {
-            "title": {
+            "title": [{
               "type": "image",
               "style": {
                 "align": "left",
                 "left": "20",
                 "width": "12",
-                "height": "12"
+                "height": "12",
+                "background": "#A9A9A9"
               },
               "url": "https://DinaDurykina.github.io/squared-menu.png"},
-            "style": {
-              "background": "#A9A9A9"
-            },
+              {
+                "type": "image",
+                "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
+                "style": {
+                  "align": "center",
+                  "left": "50",
+                  "width": "wrap_content",
+                  "height": "50"
+                }
+              }],
             "menu": {
-              "text": "Choose",
+              "text": "Расписание",
               "style": {
                 "color": "#0000ff",
                 "font": "HelveticaNeue-Bold",
                 "size": "12"
               },
-              "action": {
+              "url": "https://DinaDurykina.github.io/7string.json"
+              /*"action": {
                 "type": "$util.toast",
                 "options": {
                   "text": "Good job!"
                 }
-              }
+              }*/
             }
           },
           "background": {
