@@ -22,11 +22,7 @@
                 "height": "50"
               },
               "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png",
-              "action": {
-                "type": "$util.toast",
-                "options": {
-                  "text":"Бразильские танцы"}
-            },
+
               "menu": {
                 "text": "Dance School, Russia, Moskva",
                 "style": {
