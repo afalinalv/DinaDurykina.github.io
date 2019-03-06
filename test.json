@@ -122,7 +122,7 @@
             },
             {
               "type": "label",
-              "text": "Расписание                > ",
+              "text": "Расписание                     > ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -157,11 +157,11 @@
                   "url": "https://DinaDurykina.github.io/bagteh.json"
                 },
                 {
-                  "image": "DinaDurykina.github.io/icons8-vk.com-24.png",
+                  "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
                   "url": "https://DinaDurykina.github.io/buyteh.json"
                 },
                 {
-                  "image": "DinaDurykina.github.io/icons8-marker-24.png",
+                  "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
                   "url": "https://DinaDurykina.github.io/truckteh.json"
                 }
               ]
