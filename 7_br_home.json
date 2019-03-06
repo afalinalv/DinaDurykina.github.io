@@ -10,7 +10,7 @@
         "body": {
           "background": {
             "type": "html",
-            "url": "http://http://www.brazuka.ru/",
+            "url": "http://www.brazuka.ru/",
             "action": { "trigger": "navigate" }
           }
         }
