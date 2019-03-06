@@ -83,7 +83,7 @@
                 "left": "20",
                 "font": "HelveticaNeue-Bold",
                 "size": "25",
-                "bottom": "320"
+                "bottom": "380"
               },
               "action": {
                 "type": "$set",
