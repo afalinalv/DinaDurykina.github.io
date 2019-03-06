@@ -82,8 +82,8 @@
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "40",
-                "bottom": "280"
+                "size": "36",
+                "bottom": "250"
               },
               "action": {
                 "type": "$set",
