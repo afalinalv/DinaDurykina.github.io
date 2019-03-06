@@ -89,7 +89,9 @@
               "action": {
                 "type": "$set",
                 "options": {
-                  "bg": "#ff0000"
+                  "bg": {
+                    "type": "camera"
+                  }
                 },
                 "success": {
                   "type": "$render"
@@ -154,15 +156,15 @@
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/buyteh.json"
+                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/bagteh.json"
+                  "url": "https://DinaDurykina.github.io/7_br_home.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/truckteh.json"
+                  "url": "https://DinaDurykina.github.io/7_br_map.json"
                 }
               ]
             }
