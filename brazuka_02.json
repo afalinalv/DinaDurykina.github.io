@@ -81,9 +81,9 @@
                 "color": "#ffffff",
                 "padding": "10",
                 "left": "20",
-                "font": "HelveticaNeue-Bold",
-                "size": "25",
-                "bottom": "380"
+                "font": "Roboto",
+                "size": "40",
+                "bottom": "360"
               },
               "action": {
                 "type": "$set",
