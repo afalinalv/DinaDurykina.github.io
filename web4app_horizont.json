@@ -1,5 +1,5 @@
 [
-  { "http":  "https://DinaDurykina.github.io/brazuka.json",
+  { "http":  "https://DinaDurykina.github.io/br_start.json",
     "icon":  "https://DinaDurykina.github.io/brazuka.png",
     "head":  "БРАЗУКА",
     "name": "Brazuka"
@@ -19,7 +19,7 @@
     "head":  "ТЛ",
     "name": "tl"
   },
-  { "http":  "https://DinaDurykina.github.io/brazuka.json",
+  { "http":  "https://DinaDurykina.github.io/br_start.json",
     "icon":  "https://DinaDurykina.github.io/brazuka.png",
     "head":  "БРАЗУКА",
     "name": "Brazuka"
