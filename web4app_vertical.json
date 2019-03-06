@@ -20,11 +20,11 @@
     "name": "tl"
   },
   { "http":  "http://www.jcgroup.tv/",
-    "icon":  "https://DinaDurykina.github.io/brazuka.png",
-    "head":  "БРАЗУКА",
-    "name": "Brazuka"
+    "icon":  "https://DinaDurykina.github.io/logo.png",
+    "head":  "Ростов",
+    "name": "JCGroup"
   },
-  { "http":  "https://DinaDurykina.github.io/ph.json",
+  { "http":  "http://www.total-interactive.com",
     "icon":  "https://DinaDurykina.github.io/ph.png",
     "head":  "ФотоОбои",
     "name": "Foto"
