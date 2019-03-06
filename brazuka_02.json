@@ -80,10 +80,10 @@
                 "background": "rgba(0,0,0,0.7)",
                 "color": "#ffffff",
                 "padding": "10",
-                "left": "20",
+                "left": "10",
                 "font": "Roboto",
                 "size": "40",
-                "bottom": "360"
+                "bottom": "280"
               },
               "action": {
                 "type": "$set",
