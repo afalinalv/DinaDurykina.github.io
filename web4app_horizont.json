@@ -1,12 +1,12 @@
 [
   { "http":  "https://DinaDurykina.github.io/br_start.json",
     "icon":  "https://DinaDurykina.github.io/brazuka.png",
-    "head":  "БРАЗУКА",
+    "head":  "ZUK",
     "name": "Brazuka"
   },
   { "http":  "https://DinaDurykina.github.io/ph.json",
     "icon":  "https://DinaDurykina.github.io/ph.png",
-    "head":  "ФотоОбои",
+    "head":  "Print",
     "name": "Foto"
   },
   { "http":  "https://DinaDurykina.github.io/kosmo.json",
@@ -31,12 +31,12 @@
   },
   { "http":  "https://DinaDurykina.github.io/br_start.json",
     "icon":  "https://DinaDurykina.github.io/brazuka.png",
-    "head":  "БРАЗУКА",
+    "head":  "ZUK",
     "name": "Brazuka"
   },
   { "http":  "https://DinaDurykina.github.io/tl.json",
     "icon":  "https://DinaDurykina.github.io/tl.png",
-    "head":  "ТЛ",
-    "name": "tl"
+    "head":  "Талантия",
+    "name":  "tl"
   }
 ]
