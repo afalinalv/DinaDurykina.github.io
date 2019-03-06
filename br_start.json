@@ -35,7 +35,7 @@
               "style": {
                 "color": "#3F51B5",
                 "font": "Roboto",
-                "size": "20"
+                "size": "16"
               },
               "action": {
                 "type": "$util.toast",
