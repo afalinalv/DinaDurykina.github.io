@@ -6,13 +6,13 @@
 "МОЙ БАННЕР": "HTTP",
 "OtherReclama": "true",
   "Template": [
-"TemplateDefault": "https://DinaDurykina.github.io/#jason.json",
-"TemplateNative":	"https://DinaDurykina.github.io/TPL01RN.json",
-"TemplateReactive": "https://DinaDurykina.github.io/TPL01RNS.json",
-"TemplateReactiveNative1": "https://DinaDurykina.github.io/TPL011NNS.json",
-"TemplateReactiveNative2": "https://DinaDurykina.github.io/TPL011NN.json",
-"TemplateReactiveNative3": "https://DinaDurykina.github.io/TPL011NNFAB.json",
-"TemplateReactiveNative4": "https://DinaDurykina.github.io/TPL011NNFABS.json"
+"https://DinaDurykina.github.io/#jason.json",
+"https://DinaDurykina.github.io/TPL01RN.json",
+"https://DinaDurykina.github.io/TPL01RNS.json",
+"https://DinaDurykina.github.io/TPL011NNS.json",
+"https://DinaDurykina.github.io/TPL011NN.json",
+"https://DinaDurykina.github.io/TPL011NNFAB.json",
+"https://DinaDurykina.github.io/TPL011NNFABS.json"
 ],
 "NoIcon": "https://DinaDurykina.github.io/icons8-глобус-24.png",
 "Toast": "false",
