@@ -11,12 +11,12 @@
   },
   { "http":  "https://DinaDurykina.github.io/kosmo.json",
     "icon":  "https://DinaDurykina.github.io/kosmo.png",
-    "head":  "Космос",
+    "head":  "Детсад",
     "name":  "kosmo"
   },
   { "http":  "https://DinaDurykina.github.io/tl.json",
     "icon":  "https://DinaDurykina.github.io/tl.png",
-    "head":  "ТЛ",
+    "head":  "Талантия",
     "name": "tl"
   },
   { "http":  "https://DinaDurykina.github.io/br_start.json",
@@ -26,8 +26,8 @@
   },
   { "http":  "https://DinaDurykina.github.io/ph.json",
     "icon":  "https://DinaDurykina.github.io/ph.png",
-    "head":  "ФотоОбои",
-    "name": "Foto"
+    "head":  "CalcAPP",
+    "name": "Calc"
   },
   { "http":  "https://DinaDurykina.github.io/kosmo.json",
     "icon":  "https://DinaDurykina.github.io/kosmo.png",
