@@ -11,12 +11,12 @@
   },
   { "http":  "https://www.kosmo-kids.ru/",
     "icon":  "https://DinaDurykina.github.io/kosmo.png",
-    "head":  "Космос",
+    "head":  "Детсад",
     "name":  "kosmo"
   },
   { "http":  "http://talantiya.ru/",
     "icon":  "https://DinaDurykina.github.io/tl.png",
-    "head":  "ТЛ",
+    "head":  "Детский Клуб",
     "name": "tl"
   },
   { "http":  "http://www.jcgroup.tv/",
@@ -35,7 +35,7 @@
     "name":  "Calculator"
   },
   { "http":  "https://www.dethleffs.de/en/",
-    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "icon":  "https://DinaDurykina.github.io/logo_uk_dethleffs.png",
     "head":  "Motorhome",
     "name": "Dethleffs"
   }
