@@ -30,9 +30,9 @@
     "name": "Calc"
   },
   { "http":  "https://DinaDurykina.github.io/kosmo.json",
-    "icon":  "https://DinaDurykina.github.io/kosmo.png",
-    "head":  "Космос",
-    "name":  "kosmo"
+    "icon":  "https://DinaDurykina.github.io/icons8-test-passed-24.png",
+    "head":  "Test",
+    "name":  "Test"
   },
   { "http":  "https://DinaDurykina.github.io/tl.json",
     "icon":  "https://DinaDurykina.github.io/tl.png",
