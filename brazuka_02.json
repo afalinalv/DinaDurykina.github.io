@@ -46,13 +46,7 @@
             "style": {
               "background": "{{$get.bg}}"
             },
-            "background": {
-              "type": "html",
-              "url": "http://www.brazuka.ru/",
-              "action": {
-                "trigger": "navigate"
-              }
-            },
+
             "layers": [
               {
                 "type": "image",
