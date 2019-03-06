@@ -100,7 +100,7 @@
             },
             {
               "type": "label",
-              "text": "Первый урок бесплатно >",
+              "text": "Первый урок бесплатно     >",
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
@@ -124,7 +124,7 @@
             },
             {
               "type": "label",
-              "text": "Расписание                       > ",
+              "text": "Расписание                           > ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
