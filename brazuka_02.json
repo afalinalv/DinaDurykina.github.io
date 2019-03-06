@@ -20,6 +20,15 @@
               "background": "rgba(0,0,0,0)",
               "color": "#ffffff"
             },
+            "title": {
+              "type": "image",
+              "style": {
+                "align": "left",
+                "left": "20",
+                "width": "120",
+                "height": "50"
+              },
+              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"},
             "menu": {
               "text": "View JSON",
               "href": {
