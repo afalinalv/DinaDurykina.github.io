@@ -1,12 +1,42 @@
-KEY_ICON:horizontal
-1- http://DinaDurykina.github.io/brazuka.png
-2- http://DinaDurykina.github.io/ph.png
-3- http://DinaDurykina.github.io/kosmo.png
-4- http://DinaDurykina.github.io/tl.png
-
-
-KEY_WRAP:horizontal
-1- http://DinaDurykina.github.io/brazuka.json
-2- http://DinaDurykina.github.io/ph.json
-3- http://DinaDurykina.github.io/kosmo.json
-4- http://DinaDurykina.github.io/tl.json
+[
+  { "http":  "https://DinaDurykina.github.io/brazuka.json",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКА",
+    "name": "Brazuka"
+  },
+  { "http":  "https://DinaDurykina.github.io/ph.json",
+    "icon":  "https://DinaDurykina.github.io/ph.png",
+    "head":  "ФотоОбои",
+    "name": "Foto"
+  },
+  { "http":  "https://DinaDurykina.github.io/kosmo.json",
+    "icon":  "https://DinaDurykina.github.io/kosmo.png",
+    "head":  "Космос",
+    "name":  "kosmo"
+  },
+  { "http":  "https://DinaDurykina.github.io/tl.json",
+    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "head":  "ТЛ",
+    "name": "tl"
+  },
+  { "http":  "https://DinaDurykina.github.io/brazuka.json",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКА",
+    "name": "Brazuka"
+  },
+  { "http":  "https://DinaDurykina.github.io/ph.json",
+    "icon":  "https://DinaDurykina.github.io/ph.png",
+    "head":  "ФотоОбои",
+    "name": "Foto"
+  },
+  { "http":  "https://DinaDurykina.github.io/kosmo.json",
+    "icon":  "https://DinaDurykina.github.io/kosmo.png",
+    "head":  "Космос",
+    "name":  "kosmo"
+  },
+  { "http":  "https://DinaDurykina.github.io/tl.json",
+    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "head":  "ТЛ",
+    "name": "tl"
+  }
+]
