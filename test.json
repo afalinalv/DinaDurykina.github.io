@@ -148,11 +148,35 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "rgba(255,255,255,0.8)",
-                "color": "#000000"
-              }
+                "background": "#A9A9A9"
+              },
+              "items": [
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
+                  "text": "Cart",
+                  "style": {
+                    "height": "12"
+                  },
+                  "url": "https://DinaDurykina.github.io/bagteh.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-buy-24.png",
+                  "text": "Pay",
+                  "style": {
+                    "height": "12"
+                  },
+                  "url": "https://DinaDurykina.github.io/buyteh.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-truck-24.png",
+                  "text": "Delivery",
+                  "style": {
+                    "height": "12"
+                  },
+                  "url": "https://DinaDurykina.github.io/truckteh.json"
+                }
+              ]
             }
-
           }
         }
       }
