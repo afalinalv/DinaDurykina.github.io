@@ -1,5 +1,22 @@
-{
-  "icon": "5",
-  "head": "Вижу тебя",
-  "momey": "true"
-}
+[
+  { "http":  "https://DinaDurykina.github.io/brazuka.json",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКА",
+    "money": "true"
+  },
+  { "http":  "https://DinaDurykina.github.io/ph.json",
+    "icon":  "https://DinaDurykina.github.io/ph.png",
+    "head":  "ФотоОбои",
+    "money": "true"
+  },
+  { "http":  "https://DinaDurykina.github.io/kosmo.json",
+    "icon":  "https://DinaDurykina.github.io/kosmo.png",
+    "head":  "kosmo",
+    "money": "true"
+  },
+  { "http":  "https://DinaDurykina.github.io/tl.json",
+    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "head":  "kosmo",
+    "money": "true"
+  }
+]
