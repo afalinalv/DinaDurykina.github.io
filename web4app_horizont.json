@@ -29,7 +29,7 @@
     "head":  "CalcAPP",
     "name": "Calc"
   },
-  { "http":  "https://DinaDurykina.github.io/kosmo.json",
+  { "http":  "https://DinaDurykina.github.io/test.json",
     "icon":  "https://DinaDurykina.github.io/icons8-test-passed-24.png",
     "head":  "Test",
     "name":  "Test"
