@@ -30,13 +30,13 @@
     "name": "Total"
   },
   { "http":  "https://venturepact.com/mobile_app_price_calculator",
-    "icon":  "https://DinaDurykina.github.io/kosmo.png",
-    "head":  "Космос",
-    "name":  "kosmo"
+    "icon":  "https://DinaDurykina.github.io/Calc.png",
+    "head":  "Calc",
+    "name":  "Calculator"
   },
-  { "http":  "https://DinaDurykina.github.io/tl.json",
+  { "http":  "https://www.dethleffs.de/en/",
     "icon":  "https://DinaDurykina.github.io/tl.png",
-    "head":  "ТЛ",
-    "name": "tl"
+    "head":  "Motorhome",
+    "name": "Dethleffs"
   }
 ]
