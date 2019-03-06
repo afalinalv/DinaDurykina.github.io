@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "brazuka_home",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://www.brazuka.ru/kontakty/",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }
+}
