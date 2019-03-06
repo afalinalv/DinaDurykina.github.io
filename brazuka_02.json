@@ -4,25 +4,30 @@
       "title": "BRAZUKA",
       "actions": {
         "$load": {
-          "type": "$render"
+          "type": "$set",
+          "options": {
+            "bg": "#00ff00"
+          },
+          "success": {
+            "type": "$render"
+          },
+          "navigate": {
+            "type": "$default"
+          }
         },
-        "navigate": {
-          "type": "$default"
-        }
-      },
-      "templates": {
-        "body": {
-          "header": {
-            "title": {
-              "type": "image",
+        "templates": {
+          "body": {
+            "header": {
+              "title": {
+                "type": "image",
                 "style": {
-                "align": "left",
-                "left": "20",
-                "width": "120",
-                "height": "50"
+                  "align": "left",
+                  "left": "20",
+                  "width": "120",
+                  "height": "50"
+                },
+                "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"
               },
-              "url": "https://DinaDurykina.github.io/Brazuka_Rebrand_shkolatansev_black.png"},
-
               "menu": {
                 "text": "Dance School, Russia, Moskva",
                 "style": {
@@ -38,10 +43,16 @@
                 }
               }
             },
-          "style": {
-            "background": "{{$get.bg}}"
-          },
-        
+            "style": {
+              "background": "{{$get.bg}}"
+            },
+            "background": {
+              "type": "html",
+              "url": "http://www.brazuka.ru/",
+              "action": {
+                "trigger": "navigate"
+              }
+            },
             "layers": [
               {
                 "type": "image",
@@ -97,3 +108,4 @@
       }
     }
   }
+}
