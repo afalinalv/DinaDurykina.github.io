@@ -124,7 +124,7 @@
             },
             {
               "type": "label",
-              "text": "Расписание                           > ",
+              "text": "Расписание                              > ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
