@@ -10,9 +10,6 @@
           },
           "success": {
             "type": "$render"
-          },
-          "navigate": {
-            "type": "$default"
           }
         },
         "templates": {
