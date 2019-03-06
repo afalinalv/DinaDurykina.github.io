@@ -153,27 +153,15 @@
               },
               "items": [
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
-                  "text": "Cart",
-                  "style": {
-                    "height": "12"
-                  },
+                  "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
                   "url": "https://DinaDurykina.github.io/bagteh.json"
                 },
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-buy-24.png",
-                  "text": "Pay",
-                  "style": {
-                    "height": "12"
-                  },
+                  "image": "DinaDurykina.github.io/icons8-vk.com-24.png",
                   "url": "https://DinaDurykina.github.io/buyteh.json"
                 },
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-truck-24.png",
-                  "text": "Delivery",
-                  "style": {
-                    "height": "12"
-                  },
+                  "image": "DinaDurykina.github.io/icons8-marker-24.png",
                   "url": "https://DinaDurykina.github.io/truckteh.json"
                 }
               ]
