@@ -1,0 +1,76 @@
+{
+  "$jason": {
+    "head": {
+      "title": "BRAZUKA",
+      "actions": {
+        "$load": {
+          "type": "$set",
+          "options": {
+            "bg": "#00ff00"
+          },
+          "success": {
+            "type": "$render"
+          }
+        },
+        "templates": {
+          "body": {
+            "style": {
+              "background": "{{$get.bg}}"
+            },
+
+            "layers": [
+              {
+                "type": "image",
+                "url": "https://DinaDurykina.github.io/whichapplication_conversation_email_phone_7097.png",
+                "style": {
+                  "bottom": "90",
+                  "right": "30",
+                  "width": "60",
+                  "height": "60",
+                  "align": "center",
+                  "corner_radius": "40"
+                },
+                "action": {
+                  "type": "$back"
+                }
+              }
+            ],
+            "footer": {
+              "tabs": {
+                "style": {
+                  "background": "#A9A9A9"
+                },
+                "items": [
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-shopping-bag-24.png",
+                    "text": "Cart",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/bagteh.json"
+                  },
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-buy-24.png",
+                    "text": "Pay",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/buyteh.json"
+                  },
+                  {
+                    "image": "https://DinaDurykina.github.io/icons8-truck-24.png",
+                    "text": "Delivery",
+                    "style": {
+                      "height": "12"
+                    },
+                    "url": "https://DinaDurykina.github.io/truckteh.json"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
