@@ -19,11 +19,6 @@
     "head":  "Талантия",
     "name": "tl"
   },
-  { "http":  "https://DinaDurykina.github.io/br_start.json",
-    "icon":  "https://DinaDurykina.github.io/brazuka.png",
-    "head":  "БРАЗУКА",
-    "name": "Brazuka"
-  },
   { "http":  "https://DinaDurykina.github.io/calc_Platform_NoImage.json",
     "icon":  "https://DinaDurykina.github.io/app4webline.png",
     "head":  "CalcAPP",
@@ -33,6 +28,11 @@
     "icon":  "https://DinaDurykina.github.io/icons8-test-passed-24.png",
     "head":  "Test",
     "name":  "Test"
+  },
+  { "http":  "https://DinaDurykina.github.io/br_start.json",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКА",
+    "name": "Brazuka"
   },
   { "http":  "https://DinaDurykina.github.io/tl.json",
     "icon":  "https://DinaDurykina.github.io/tl.png",
