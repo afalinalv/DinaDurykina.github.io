@@ -33,8 +33,8 @@
               "text": "Dance School",
               "style": {
                 "color": "#3F51B5",
-                "font": "HelveticaNeue-Bold",
-                "size": "18"
+                "font": "Roboto",
+                "size": "20"
               },
               "action": {
                 "type": "$util.toast",
@@ -101,12 +101,12 @@
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
-                "width": "280",
+                "width": "300",
                 "height": "50",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "18",
+                "size": "20",
                 "bottom": "170"
               },
               "action": {
@@ -125,12 +125,12 @@
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
-                "width": "280",
+                "width": "300",
                 "height": "50",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "18",
+                "size": "20",
                 "bottom": "110"
               },
               "action": {
