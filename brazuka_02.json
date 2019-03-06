@@ -101,10 +101,10 @@
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
-                "width": "200",
+                "width": "280",
                 "height": "50",
                 "padding": "10",
-                "right": "20",
+                "right": "10",
                 "font": "Roboto",
                 "size": "18",
                 "bottom": "170"
@@ -125,13 +125,13 @@
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
-                "width": "200",
+                "width": "280",
                 "height": "50",
                 "padding": "10",
                 "right": "20",
                 "font": "Roboto",
                 "size": "18",
-                "bottom": "120"
+                "bottom": "110"
               },
               "action": {
                 "type": "$set",
