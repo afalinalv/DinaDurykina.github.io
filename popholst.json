@@ -131,9 +131,14 @@
                 "align": "center",
                 "bottom": "105"
               },
-              "href": {
-                "url": "https://DinaDurykina.github.io/7popprice.json",
-                "view": "web"
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://DinaDurykina.github.io/7popprice.json"
+                },
+                "success": {
+                  "type": "$render"
+                }
               }
             }
           ],
