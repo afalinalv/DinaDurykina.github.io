@@ -118,12 +118,9 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "refresh",
+                "type": "$util.toast",
                 "options": {
-                  "url": "https://DinaDurykina.github.io/7popprice.json"
-                },
-                "success": {
-                  "type": "$render"
+                  "text": "Нажали на кнопку"
                 }
               }
             }
