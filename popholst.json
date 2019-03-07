@@ -90,12 +90,14 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "refresh",
-                "options": {
-                  "url": "https://DinaDurykina.github.io/7poporder.json"
-                },
-                "success": {
-                  "type": "$render"
+                "$load": {
+                  "type": "$network.request",
+                  "options": {
+                    "url": "https://DinaDurykina.github.io/7poporder.json"
+                  },
+                  "success": {
+                    "type": "$render"
+                  }
                 }
               }
             },
