@@ -100,7 +100,7 @@
                     "name": "username",
                     "placeholder": "Введите имя"
                   }, {
-                    "name": "telefon",
+                    "name": "number",
                     "placeholder": "+7"
                   }]
                 }
