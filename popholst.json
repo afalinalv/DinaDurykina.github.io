@@ -151,15 +151,15 @@
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
+                  "url": "https://DinaDurykina.github.io/7popvk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_home.json"
+                  "url": "https://DinaDurykina.github.io/7pophome.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7_br_map.json"
+                  "url": "https://DinaDurykina.github.io/7popmapsite.json"
                 }
               ]
             }
