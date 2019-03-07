@@ -60,17 +60,6 @@
                 "font": "Roboto",
                 "size": "28",
                 "bottom": "265"
-              },
-              "action": {
-                "type": "$set",
-                "options": {
-                  "bg": {
-                    "type": "camera"
-                  }
-                },
-                "success": {
-                  "type": "$render"
-                }
               }
             },
             {
@@ -117,16 +106,7 @@
             },
             {
               "type": "label",
-              "text": "УСЛУГИ и ЦЕНЫ",
-              "action": {
-                "type": "$network.request",
-                "options": {
-                  "url": "https://DinaDurykina.github.io/7popprice.json"
-                },
-                "success": {
-                  "type": "$render"
-                }
-              },
+              "text": "СДЕЛАТЬ ФОТО",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -139,6 +119,17 @@
                 "corner_radius": "7",
                 "align": "center",
                 "bottom": "105"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": {
+                    "type": "camera"
+                  }
+                },
+                "success": {
+                  "type": "$render"
+                }
               }
             }
           ],
