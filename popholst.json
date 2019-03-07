@@ -90,12 +90,16 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$network.request",
+
+                "type": "$lambda",
                 "options": {
-                  "url": "https://DinaDurykina.github.io/7poporder.json"
+                  "name": "refresh",
+                  "options": {
+                    "url": "https://jasonbase.com/things/3nf.json"
+                  }
                 },
                 "success": {
-                  "type": "$reload"
+                  "type": "$render"
                 }
               }
             },
