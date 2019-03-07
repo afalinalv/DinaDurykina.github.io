@@ -90,9 +90,12 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$network.request",
                 "options": {
-                  "text": "Нажали на кнопку заказ"
+                  "url": "https://DinaDurykina.github.io/7poporder.json"
+                },
+                "success": {
+                  "type": "$render"
                 }
               }
             },
