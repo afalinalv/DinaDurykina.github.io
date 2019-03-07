@@ -75,6 +75,15 @@
             },
             {
               "type": "label",
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://DinaDurykina.github.io/7poporder.json"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              },
               "text": "ОФОРМИТЬ ЗАКАЗ",
               "style": {
                 "background": "#FF4081",
@@ -88,16 +97,8 @@
                 "corner_radius": "7",
                 "align": "center",
                 "bottom": "170"
-              },
-              "action": {
-                "type": "$network.request",
-                  "options": {
-                    "url": "https://DinaDurykina.github.io/7poporder.json"
-                  },
-                  "success": {
-                    "type": "$render"
-                  }
-                }
+              }
+
               },
             {
               "type": "button",
