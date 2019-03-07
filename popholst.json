@@ -74,61 +74,57 @@
               }
             },
             {
-              "type": "label",
-              "text": "ОФОРМИТЬ ЗАКАЗ",
-                "style": {
-                "background": "#FF4081",
-                "color": "#ffffff",
-                "width": "310",
-                "height": "50",
-                "padding": "10",
-                "left": "10",
-                "font": "Roboto",
-                "size": "20",
-                "corner_radius": "7",
-                "align": "center",
-                "bottom": "170"
-              },
-              "actions": {
-                "$show": {
-                  "trigger": "refresh_view"
-                },
-                "$foreground": {
-                  "trigger": "refresh_view"
-                },
-                "refresh_view": {
-                  "type": "$network.request",
-                  "options": {
-                    "url": "https://DinaDurykina.github.io/7poporder.json"
+              "components": [
+                {
+                  "type": "button",
+                  "text": "ОФОРМИТЬ ЗАКАЗ",
+                  "style": {
+                    "background": "#FF4081",
+                    "color": "#ffffff",
+                    "width": "310",
+                    "height": "50",
+                    "padding": "10",
+                    "left": "10",
+                    "font": "Roboto",
+                    "size": "20",
+                    "corner_radius": "7",
+                    "align": "center",
+                    "bottom": "170"
                   },
-                  "success": {
-                    "type": "$render"
+                  "action": {
+                    "type": "$network.request",
+                    "options": {
+                      "url": "https://DinaDurykina.github.io/7poporder.json"
+                    },
+                    "success": {
+                      "type": "$render"
+                    }
+                  }
+                },
+                {
+                  "type": "button",
+                  "text": "УСЛУГИ и ЦЕНЫ",
+                  "style": {
+                    "background": "#C5CAE9",
+                    "color": "#212121",
+                    "width": "310",
+                    "height": "50",
+                    "padding": "10",
+                    "left": "10",
+                    "font": "Roboto",
+                    "size": "20",
+                    "corner_radius": "7",
+                    "align": "center",
+                    "bottom": "105"
+                  },
+                  "action": {
+                    "type": "$util.toast",
+                    "options": {
+                      "text": "Нажали на кнопку"
+                    }
                   }
                 }
-              }
-            },
-            {
-              "type": "button",
-              "text": "УСЛУГИ и ЦЕНЫ",
-              "style": {
-                "background": "#C5CAE9",
-                "color": "#212121",
-                "width": "310",
-                "height": "50",
-                "padding": "10",
-                "left": "10",
-                "font": "Roboto",
-                "size": "20",
-                "corner_radius": "7",
-                "align": "center",
-                "bottom": "105"
-              },
-              "action": {
-                "type": "$util.toast",
-                "options": {
-                  "text": "Нажали на кнопку"
-                }
-              }
+              ]
             }
           ],
           "footer": {
