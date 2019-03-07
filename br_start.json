@@ -75,7 +75,7 @@
             },
             {
               "type": "label",
-              "text": "Первый урок бесплатно     >",
+              "text": "Первый урок - бесплатно",
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
@@ -85,6 +85,8 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
+                "corner_radius": "7",
+                "align": "center",
                 "bottom": "170"
               },
               "action": {
@@ -99,7 +101,7 @@
             },
             {
               "type": "label",
-              "text": "Расписание                              > ",
+              "text": "Расписание",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -109,6 +111,8 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
+                "corner_radius": "7",
+                "align": "center",
                 "bottom": "105"
               },
               "action": {
