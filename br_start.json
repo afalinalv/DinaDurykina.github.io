@@ -92,9 +92,17 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$util.alert",
                 "options": {
-                  "text": "Нажали на кнопку урок"
+                  "title": "ЗАКАЗАТЬ ЗВОНОК:",
+                  "description": "Представьтесь, и мы перезвоним Вам",
+                  "form": [{
+                    "name": "username",
+                    "placeholder": "Введите имя"
+                  }, {
+                    "name": "telefon",
+                    "placeholder": "+7"
+                  }]
                 }
               }
             },

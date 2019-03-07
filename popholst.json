@@ -92,21 +92,15 @@
               "action": {
                 "type": "$util.alert",
                 "options": {
-                  "title": "Мы сделаем больше, чем Вы ожидаете!",
-                  "description": "Введите Ваше имя, e-mail, что печатаем, \n и нажмите кнопку ОК, \n наши сотрудники свяжутся с Вами",
+                  "title": "ЗАКАЗАТЬ ЗВОНОК:",
+                  "description": "Представьтесь, и мы перезвоним Вам",
                   "form": [{
                     "name": "username",
                     "placeholder": "Введите имя"
                   }, {
-                    "name": "e-mail",
-                    "placeholder": "Введите e-mail",
-                    "secure": "true"
-                  },
-                    {
-                      "name": "order",
-                      "placeholder": "Что печатаем?"
-                    }
-                  ]
+                    "name": "telefon",
+                    "placeholder": "+7"
+                  }]
                 }
               }
             },
