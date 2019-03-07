@@ -100,7 +100,7 @@
               }
             },
             {
-              "type": "button",
+              "type": "label",
               "text": "УСЛУГИ и ЦЕНЫ",
               "style": {
                 "background": "#C5CAE9",
