@@ -95,7 +95,7 @@
                 "type": "$util.alert",
                 "options": {
                   "title": "ЗАКАЗАТЬ ЗВОНОК:",
-                  "description": "Представьтесь, и мы перезвоним Вам",
+                  "description": "Представьтесь, \nи мы перезвоним Вам",
                   "form": [{
                     "name": "username",
                     "placeholder": "Введите имя"
