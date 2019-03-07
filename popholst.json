@@ -17,8 +17,8 @@
         "body": {
           "header": {
             "style": {
-              "background": "#FAFAFA",
-              "color": "#9E9E9E"
+              "background": "#C5CAE9",
+              "color": "#212121"
             },
             "title": {
               "type": "image",
@@ -33,7 +33,7 @@
             "menu": {
               "text": "+7(981)788-13-51",
               "style": {
-                "color": "#FF4081",
+                "color": "#212121",
                 "font": "Roboto",
                 "size": "16"
               },
@@ -76,7 +76,7 @@
             },
             {
               "type": "label",
-              "text": " Не будь скотиной\n создай картину! \n Напечатай на холсте \n и повесишь и на стене!  ",
+              "text": " Не будь скотиной-\n создай картину! \n Напечатай на холсте \n и повесишь на стене!",
               "style": {
                 "background": "rgba(0,0,0,0.0)",
                 "color": "#ffffff",
@@ -110,7 +110,7 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
-                "corner_radius": "5",
+                "corner_radius": "7",
                 "align": "center",
                 "bottom": "170"
               },
@@ -136,7 +136,7 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
-                "corner_radius": "5",
+                "corner_radius": "7",
                 "align": "center",
                 "bottom": "105"
               },
