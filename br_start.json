@@ -55,6 +55,7 @@
               "style": {
                 "background": "rgba(0,0,0,0.7)",
                 "color": "#ffffff",
+                "width": "310",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
