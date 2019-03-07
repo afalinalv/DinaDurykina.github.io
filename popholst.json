@@ -75,6 +75,7 @@
             },
             {
               "type": "label",
+              "text": "ОФОРМИТЬ ЗАКАЗ",
               "action": {
                 "type": "$network.request",
                 "options": {
@@ -84,7 +85,6 @@
                   "type": "$render"
                 }
               },
-              "text": "ОФОРМИТЬ ЗАКАЗ",
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
@@ -98,7 +98,6 @@
                 "align": "center",
                 "bottom": "170"
               }
-
               },
             {
               "type": "button",
