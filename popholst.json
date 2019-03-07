@@ -97,7 +97,7 @@
               }
             },
             {
-              "type": "label",
+              "type": "button",
               "text": "УСЛУГИ",
               "style": {
                 "background": "#C5CAE9",
