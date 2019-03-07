@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "popholst",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://popholst.ru/",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }
+}
