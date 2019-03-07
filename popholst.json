@@ -74,7 +74,7 @@
               }
             },
             {
-              "type": "button",
+              "type": "label",
               "text": "ОФОРМИТЬ ЗАКАЗ",
               "style": {
                 "background": "#FF4081",
@@ -90,8 +90,7 @@
                 "bottom": "170"
               },
               "action": {
-                "$load": {
-                  "type": "$network.request",
+                "type": "$network.request",
                   "options": {
                     "url": "https://DinaDurykina.github.io/7poporder.json"
                   },
@@ -99,8 +98,7 @@
                     "type": "$render"
                   }
                 }
-              }
-            },
+              },
             {
               "type": "button",
               "text": "УСЛУГИ и ЦЕНЫ",
