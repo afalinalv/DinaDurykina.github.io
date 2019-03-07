@@ -51,7 +51,7 @@
           "layers": [
             {
               "type": "label",
-              "text": "Когда Вы танцевали последний раз?",
+              "text": " Когда \n последний раз \n Вы танцевали ?",
               "style": {
                 "background": "rgba(0,0,0,0.7)",
                 "color": "#ffffff",
