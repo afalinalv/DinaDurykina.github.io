@@ -95,7 +95,7 @@
                   "url": "https://DinaDurykina.github.io/7poporder.json"
                 },
                 "success": {
-                  "type": "$render"
+                  "type": "$reload"
                 }
               }
             },
