@@ -76,7 +76,7 @@
               }
             },
             {
-              "type": "label",
+              "type": "button",
               "text": "Первый урок - бесплатно",
               "style": {
                 "background": "#FF4081",
@@ -92,17 +92,14 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$set",
+                "type": "$util.toast",
                 "options": {
-                  "bg": "#00ff00"
-                },
-                "success": {
-                  "type": "$render"
+                  "text": "Нажали на кнопку урок"
                 }
               }
             },
             {
-              "type": "label",
+              "type": "button",
               "text": "Танцевальные направления",
               "style": {
                 "background": "#C5CAE9",
@@ -118,12 +115,9 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$set",
+                "type": "$util.toast",
                 "options": {
-                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
-                },
-                "success": {
-                  "type": "$render"
+                  "text": "Нажали на кнопку направления"
                 }
               }
             }
