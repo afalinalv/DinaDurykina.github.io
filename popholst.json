@@ -118,6 +118,15 @@
             {
               "type": "button",
               "text": "УСЛУГИ и ЦЕНЫ",
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://DinaDurykina.github.io/7popprice.json"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              },
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -130,15 +139,6 @@
                 "corner_radius": "7",
                 "align": "center",
                 "bottom": "105"
-              },
-              "action": {
-                "type": "$network.request",
-                "options": {
-                  "url": "https://DinaDurykina.github.io/7popprice.json"
-                },
-                "success": {
-                  "type": "$render"
-                }
               }
             }
           ],
