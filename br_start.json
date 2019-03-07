@@ -50,31 +50,6 @@
           },
           "layers": [
             {
-              "type": "button",
-              "url": "https://s3.amazonaws.com/www.textcast.co/icons/camera%402x.png",
-              "style": {
-                "left": "20",
-                "bottom": "20",
-                "width": "30",
-                "height": "30",
-                "color": "#ffffff"
-              },
-              "action": {
-                "type": "$snapshot",
-                "success": {
-                  "type": "$util.share",
-                  "options": {
-                    "items": [
-                      {
-                        "type": "image",
-                        "data": "{{$jason.data}}"
-                      }
-                    ]
-                  }
-                }
-              }
-            },
-            {
               "type": "label",
               "text": "Когда Вы танцевали последний раз?",
               "style": {
