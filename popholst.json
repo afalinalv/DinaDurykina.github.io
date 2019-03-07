@@ -90,7 +90,7 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$network.request",
+                "type": "refresh",
                 "options": {
                   "url": "https://DinaDurykina.github.io/7poporder.json"
                 },
@@ -100,7 +100,7 @@
               }
             },
             {
-              "type": "label",
+              "type": "button",
               "text": "УСЛУГИ и ЦЕНЫ",
               "style": {
                 "background": "#C5CAE9",
@@ -116,7 +116,7 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$network.request",
+                "type": "refresh",
                 "options": {
                   "url": "https://DinaDurykina.github.io/7popprice.json"
                 },
