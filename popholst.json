@@ -89,13 +89,21 @@
                 "align": "center",
                 "bottom": "170"
               },
-              "action": {
-                "type": "$network.request",
-                "options": {
-                  "url": "https://DinaDurykina.github.io/7poporder.json"
+              "actions": {
+                "$show": {
+                  "trigger": "refresh_view"
                 },
-                "success": {
-                  "type": "$show"
+                "$foreground": {
+                  "trigger": "refresh_view"
+                },
+                "refresh_view": {
+                  "type": "$network.request",
+                  "options": {
+                    "url": "https://DinaDurykina.github.io/7poporder.json"
+                  },
+                  "success": {
+                    "type": "$render"
+                  }
                 }
               }
             },
