@@ -116,7 +116,7 @@
               }
             },
             {
-              "type": "button",
+              "type": "label",
               "text": "УСЛУГИ и ЦЕНЫ",
               "action": {
                 "type": "$network.request",
