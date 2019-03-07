@@ -101,7 +101,7 @@
             },
             {
               "type": "button",
-              "text": "УСЛУГИ",
+              "text": "УСЛУГИ и ЦЕНЫ",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -116,9 +116,12 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$util.toast",
+                "type": "$network.request",
                 "options": {
-                  "text": "Нажали на кнопку услуги"
+                  "url": "https://DinaDurykina.github.io/7popprice.json"
+                },
+                "success": {
+                  "type": "$render"
                 }
               }
             }
