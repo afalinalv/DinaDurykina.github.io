@@ -76,14 +76,14 @@
             },
             {
               "type": "label",
-              "text": "Не будь скотиной\n создай картину! \n Напечатай на холсте \n и повесишь и на стене!  ",
+              "text": " Не будь скотиной\n создай картину! \n Напечатай на холсте \n и повесишь и на стене!  ",
               "style": {
                 "background": "rgba(0,0,0,0.0)",
                 "color": "#ffffff",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "26",
+                "size": "28",
                 "bottom": "265"
               },
               "action": {
@@ -110,6 +110,8 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
+                "corner_radius": "5",
+                "align": "center",
                 "bottom": "170"
               },
               "action": {
@@ -134,6 +136,8 @@
                 "left": "10",
                 "font": "Roboto",
                 "size": "20",
+                "corner_radius": "5",
+                "align": "center",
                 "bottom": "105"
               },
               "action": {
