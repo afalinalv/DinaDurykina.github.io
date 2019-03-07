@@ -79,9 +79,8 @@
               "style": {
                 "background": "#FF4081",
                 "color": "#ffffff",
-                "width": "100",
-                "border_width": "310",
-                "border_height": "50",
+                "width": "310",
+                "height": "50",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
@@ -103,9 +102,8 @@
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
-                "width": "100",
-                "border_width": "310",
-                "border_height": "50",
+                "width": "310",
+                "height": "50",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
