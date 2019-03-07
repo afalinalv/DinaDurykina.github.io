@@ -1,0 +1,176 @@
+{
+  "$jason": {
+    "head": {
+      "title": "POPHOLST",
+      "actions": {
+        "$load": {
+          "type": "$set",
+          "options": {
+            "bg": "#9E9E9E"
+          },
+          "success": {
+            "type": "$render"
+          }
+        }
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "background": "#FAFAFA",
+              "color": "#9E9E9E"
+            },
+            "title": {
+              "type": "image",
+              "style": {
+                "align": "left",
+                "left": "20",
+                "width": "120",
+                "height": "50"
+              },
+              "url": "https://DinaDurykina.github.io/logo8newa.png"
+            },
+            "menu": {
+              "text": "+7(981)788-13-51",
+              "style": {
+                "color": "#FF4081",
+                "font": "Roboto",
+                "size": "16"
+              },
+              "action": {
+                "type": "$util.toast",
+                "options": {
+                  "text": "СЕРВИС №1\n ПО СОЗДАНИЮ ПОРТРЕТОВ\n И ПЕЧАТИ НА ХОЛСТЕ!"
+                }
+              }
+            }
+          },
+          "style": {
+            "background": "{{$get.bg}}"
+          },
+          "layers": [
+            {
+              "type": "button",
+              "url": "https://s3.amazonaws.com/www.textcast.co/icons/camera%402x.png",
+              "style": {
+                "left": "20",
+                "bottom": "20",
+                "width": "30",
+                "height": "30",
+                "color": "#ffffff"
+              },
+              "action": {
+                "type": "$snapshot",
+                "success": {
+                  "type": "$util.share",
+                  "options": {
+                    "items": [
+                      {
+                        "type": "image",
+                        "data": "{{$jason.data}}"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "Не будь скотиной\n создай картину! \n Напечатай на холсте \n и повесишь и на стене!  ",
+              "style": {
+                "background": "rgba(0,0,0,0.0)",
+                "color": "#ffffff",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "36",
+                "bottom": "265"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": {
+                    "type": "camera"
+                  }
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "ОФОРМИТЬ ЗАКАЗ",
+              "style": {
+                "background": "#FF4081",
+                "color": "#ffffff",
+                "width": "310",
+                "height": "50",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "bottom": "170"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "#00ff00"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "УСЛУГИ",
+              "style": {
+                "background": "#C5CAE9",
+                "color": "#212121",
+                "width": "310",
+                "height": "50",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "bottom": "105"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            }
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "#FAFAFA",
+                "color": "#9E9E9E"
+              },
+              "items": [
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
+                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
+                  "url": "https://DinaDurykina.github.io/7_br_home.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
+                  "url": "https://DinaDurykina.github.io/7_br_map.json"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
