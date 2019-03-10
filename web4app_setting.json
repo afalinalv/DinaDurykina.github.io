@@ -1,12 +1,13 @@
 {
+"Name": "
 "Reclama": "false",
 "AdMob BANNER": "true",
 "id BANNER": "ca-app-pub-4136371087370112/2298996526",
 "ID APP": "ca-app-pub-4136371087370112~6171379650",
 "МОЙ БАННЕР": "HTTP",
 "OtherReclama": "true",
-"http_gorizont": "https://DinaDurykina.github.io/web4app_gorizont.json"
-"http_vertical": "
+"http_gorizont": "https://DinaDurykina.github.io/web4app_gorizont.json",
+"http_vertical": "https://DinaDurykina.github.io/web4app_vertical.json", 
   "Template": [
 "https://DinaDurykina.github.io/#jason.json",
 "https://DinaDurykina.github.io/TPL01RN.json",
