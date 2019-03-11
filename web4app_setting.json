@@ -1,9 +1,9 @@
 {
 "Logo": "https://DinaDurykina.github.io/app4webline.png",      
 "Reclama": "false",
-"AdMob BANNER": "true",
-"ID APP": "ca-app-pub-4136371087370112~6171379650",
-"id BANNER0": "ca-app-pub-4136371087370112/2298996526",
+"AdMob_BANNER": "true",
+"ID_APP": "ca-app-pub-4136371087370112~6171379650",
+"id_BANNER0": "ca-app-pub-4136371087370112/2298996526",
 "MyBANNER": "HTTP",
 "OtherReclama": "true",
 "http_setting": "https://DinaDurykina.github.io/web4app_setting.json",
