@@ -1,0 +1,40 @@
+{
+"Logo": "https://DinaDurykina.github.io/app4webline.png",
+если Logo не доступно, то зашить в программу APP4WEB и высвечивать название из string в TextView
+
+      
+"Reclama": "false",
+"AdMob_BANNER": "true",
+"ID_APP": "ca-app-pub-4136371087370112~6171379650",
+"id_BANNER0": "ca-app-pub-4136371087370112/2298996526",
+"MyBANNER": "HTTP",
+"OtherReclama": "true",
+
+"http_setting": "https://DinaDurykina.github.io/web4app_setting.json",
+если нет доступа в интернет, то высвечивать "Offline"
+
+"http_gorizont": "https://DinaDurykina.github.io/web4app_gorizont.json",
+если ошибка и нет доступа к оплаченным оберткам, то выствечивать "Support", на нее тапают, 
+высвечивать Тоаст: 
+"Нет доступа, Отправлено смс разработчику, минуточку, сейчас Вам поступят инструкции."
+если нет доступа в Интернет, то высвечивать "Offline".
+
+"http_vertical": "https://DinaDurykina.github.io/web4app_vertical.json", 
+если нет доступа в Интернет, то высвечивать результаты из кеша, высвечивать Тоаст "Offline"
+
+  "Template": [
+"https://DinaDurykina.github.io/#jason.json",  
+- в этот шаблон оборачивать во всех случаях, когда нет доступа к любому из нижних, высвечивать Тоаст "Offline"
+"https://DinaDurykina.github.io/TPL01RN.json",
+"https://DinaDurykina.github.io/TPL01RNS.json",
+"https://DinaDurykina.github.io/TPL011NNS.json",
+"https://DinaDurykina.github.io/TPL011NN.json",
+"https://DinaDurykina.github.io/TPL011NNFAB.json",
+"https://DinaDurykina.github.io/TPL011NNFABS.json"
+],
+"NoIcon": "https://DinaDurykina.github.io/icons8-глобус-24.png", подставлять эту иконку, если невозможно считать иконку с ресурса в интернете
+
+"Toast": "false",
+"Snekbar": "true",
+"Push": "true"
+}
