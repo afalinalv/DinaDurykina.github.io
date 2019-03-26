@@ -1,77 +1,155 @@
 {
   "$jason": {
     "head": {
-      "title": "START",
+      "title": "KOSMO",
       "actions": {
-        "$foreground": {
-          "type": "$reload"
+        "$load": {
+          "type": "$set",
+          "options": {
+            "bg": "#9E9E9E"
+          },
+          "success": {
+            "type": "$render"
+          }
         }
-      }
-    },
-    "body": {
-      "style": {
-        "background": "#ffffff",
-        "border": "none"
       },
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "vertical",
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "background": "#C5CAE9",
+              "color": "#212121"
+            },
+            "title": {
+              "type": "image",
               "style": {
-                "padding": "30",
-                "spacing": "20",
-                "align": "center"
+                "align": "left",
+                "left": "20",
+                "width": "120",
+                "height": "50"
               },
-              "components": [
-                {
-                  "type": "label",
-                  "text": "START",
-                  "style": {
-                    "align": "center",
-                    "font": "Courier-Bold",
-                    "size": "18"
-                  }
-                },
-                {
-                  "type": "label",
-                  "text": "Это отладочный стартовый Json",
-                  "style": {
-                    "align": "center",
-                    "font": "Courier",
-                    "padding": "30",
-                    "size": "14"
-                  }
-                },
-                {
-                  "type": "label",
-                  "text": "START",
-                  "style": {
-                    "align": "center",
-                    "font": "HelveticaNeue-Bold",
-                    "size": "50"
-                  }
+              "url": "https://DinaDurykina.jasons.github.io/KOSMO_WORK/kosmo-kids_name.png"
+            },
+            "menu": {
+              "text": "+7(499)397-70-77",
+              "style": {
+                "color": "#212121",
+                "font": "Roboto",
+                "size": "16"
+              },
+              "action": {
+                "type": "$util.toast",
+                "options": {
+                  "text": " Сеть билингвальных\n детских садов\n и детских центров"
                 }
-              ]
+              }
+            }
+          },
+          "style": {
+            "background": "{{$get.bg}}"
+          },
+          "layers": [
+            {
+              "type": "label",
+              "text": " ВСЕ\n НАЧИНАЕТСЯ \n С НУЛЯ:))",
+              "style": {
+                "background": "rgba(0,0,0,0.0)",
+                "color": "#ffffff",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "28",
+                "bottom": "265"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": {
+                    "type": "camera"
+                  }
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
             },
             {
               "type": "label",
+              "text": "Нажмите и мы Вам позвоним!",
               "style": {
-                "align": "right",
+                "background": "#FF4081",
+                "color": "#ffffff",
+                "width": "310",
+                "height": "50",
                 "padding": "10",
-                "color": "#000000",
-                "font": "HelveticaNeue",
-                "size": "12"
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "corner_radius": "7",
+                "align": "center",
+                "bottom": "170"
               },
-              "text": "Проверка JSON",
-              "href": {
-                "url": "https://DinaDurykina.github.io/calc_Platform_NoImage.json",
-                "fresh": "true"
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "#00ff00"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "Записать и отправить заявку",
+              "style": {
+                "background": "#C5CAE9",
+                "color": "#212121",
+                "width": "310",
+                "height": "50",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "corner_radius": "7",
+                "align": "center",
+                "bottom": "105"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
+                },
+                "success": {
+                  "type": "$render"
+                }
               }
             }
-           ]
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "#FAFAFA",
+                "color": "#9E9E9E"
+              },
+              "items": [
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
+                  "url": "https://DinaDurykina.github.io/7popvk.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
+                  "url": "https://DinaDurykina.github.io/7pophome.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
+                  "url": "https://DinaDurykina.github.io/7popmapsite.json"
+                }
+              ]
+            }
+          }
         }
-      ]
+      }
     }
   }
 }
