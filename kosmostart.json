@@ -1,0 +1,155 @@
+{
+  "$jason": {
+    "head": {
+      "title": "KOSMO",
+      "actions": {
+        "$load": {
+          "type": "$set",
+          "options": {
+            "bg": "#9E9E9E"
+          },
+          "success": {
+            "type": "$render"
+          }
+        }
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "background": "#C5CAE9",
+              "color": "#212121"
+            },
+            "title": {
+              "type": "image",
+              "style": {
+                "align": "left",
+                "left": "20",
+                "width": "120",
+                "height": "50"
+              },
+              "url": "https://DinaDurykina.github.io/kosmo-kids_name.png"
+            },
+            "menu": {
+              "text": "+7(499)397-70-77",
+              "style": {
+                "color": "#212121",
+                "font": "Roboto",
+                "size": "16"
+              },
+              "action": {
+                "type": "$util.toast",
+                "options": {
+                  "text": " Сеть билингвальных\n детских садов\n и детских центров"
+                }
+              }
+            }
+          },
+          "style": {
+            "background": "{{$get.bg}}"
+          },
+          "layers": [
+            {
+              "type": "label",
+              "text": " ЖИЗНЬ\n НАЧИНАЕТСЯ \n С НУЛЯ:))",
+              "style": {
+                "background": "rgba(0,0,0,0.0)",
+                "color": "#ffffff",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "28",
+                "bottom": "265"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": {
+                    "type": "camera"
+                  }
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "Нажмите и мы Вам позвоним!",
+              "style": {
+                "background": "#FF4081",
+                "color": "#ffffff",
+                "width": "310",
+                "height": "50",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "corner_radius": "7",
+                "align": "center",
+                "bottom": "170"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "#00ff00"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "Записать и отправить заявку",
+              "style": {
+                "background": "#C5CAE9",
+                "color": "#212121",
+                "width": "310",
+                "height": "50",
+                "padding": "10",
+                "left": "10",
+                "font": "Roboto",
+                "size": "20",
+                "corner_radius": "7",
+                "align": "center",
+                "bottom": "105"
+              },
+              "action": {
+                "type": "$set",
+                "options": {
+                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
+                },
+                "success": {
+                  "type": "$render"
+                }
+              }
+            }
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "#FAFAFA",
+                "color": "#9E9E9E"
+              },
+              "items": [
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-instagram-24.png",
+                  "url": "https://DinaDurykina.github.io/7kosmovk.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
+                  "url": "https://DinaDurykina.github.io/7kosmohome.json"
+                },
+                {
+                  "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
+                  "url": "https://DinaDurykina.github.io/7kosmomapsite.json"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
