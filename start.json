@@ -17,7 +17,7 @@
         "body": {
           "header": {
             "style": {
-              "background": "#C5CAE9",
+              "background": "#FF9800",
               "color": "#212121"
             },
             "title": {
@@ -28,7 +28,7 @@
                 "width": "120",
                 "height": "50"
               },
-              "url": "https://DinaDurykina.github.io/kosmo-kids_name.png"
+              "url": "https://DinaDurykina.jasons.github.io/KOSMO_WORK/kosmo-kids_name.png"
             },
             "menu": {
               "text": "+7(499)397-70-77",
@@ -51,14 +51,16 @@
           "layers": [
             {
               "type": "label",
-              "text": " ВСЕ\n НАЧИНАЕТСЯ \n С НУЛЯ:))",
+              "text": " ЖИЗНЬ\n НАЧИНАЕТСЯ \n С НУЛЯ:))",
               "style": {
-                "background": "rgba(0,0,0,0.0)",
+                "background": "rgba(0,0,0,7)",
                 "color": "#ffffff",
+                "width": "310",
                 "padding": "10",
                 "left": "10",
                 "font": "Roboto",
-                "size": "28",
+                "size": "36",
+                "corner_radius": "7",
                 "bottom": "265"
               },
               "action": {
@@ -74,7 +76,7 @@
               }
             },
             {
-              "type": "label",
+              "type": "button",
               "text": "Нажмите и мы Вам позвоним!",
               "style": {
                 "background": "#FF4081",
@@ -90,18 +92,23 @@
                 "bottom": "170"
               },
               "action": {
-                "type": "$set",
+                "type": "$util.alert",
                 "options": {
-                  "bg": "#00ff00"
-                },
-                "success": {
-                  "type": "$render"
+                  "title": "ЗАКАЗАТЬ ЗВОНОК:",
+                  "description": "Представьтесь, \nи мы перезвоним Вам",
+                  "form": [{
+                    "name": "username",
+                    "placeholder": "Введите имя"
+                  }, {
+                    "name": "number",
+                    "placeholder": "+7"
+                  }]
                 }
               }
             },
             {
-              "type": "label",
-              "text": "Записать и отправить заявку",
+              "type": "button",
+              "text": "Танцевальные направления",
               "style": {
                 "background": "#C5CAE9",
                 "color": "#212121",
@@ -116,12 +123,9 @@
                 "bottom": "105"
               },
               "action": {
-                "type": "$set",
+                "type": "$util.toast",
                 "options": {
-                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
-                },
-                "success": {
-                  "type": "$render"
+                  "text": "Нажали на кнопку направления"
                 }
               }
             }
@@ -129,21 +133,21 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "#FAFAFA",
-                "color": "#9E9E9E"
+                "background": "#FF9800",
+                "color": "#000000"
               },
               "items": [
                 {
                   "image": "https://DinaDurykina.github.io/icons8-vk.com-24.png",
-                  "url": "https://DinaDurykina.github.io/7popvk.json"
+                  "url": "https://DinaDurykina.github.io/7_br_vk.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7pophome.json"
+                  "url": "https://DinaDurykina.github.io/7_br_home.json"
                 },
                 {
                   "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7popmapsite.json"
+                  "url": "https://DinaDurykina.github.io/7_br_map.json"
                 }
               ]
             }
