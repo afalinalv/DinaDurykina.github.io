@@ -1,18 +1,18 @@
 [
   { "http":  "https://DinaDurykina.github.io/br_start.json",
-    "icon":  "https://DinaDurykina.github.io/brazuka.png", },
+    "icon":  "https://DinaDurykina.github.io/brazuka.png" },
   { "http":  "https://DinaDurykina.github.io/popholst.json",
-    "icon":  "https://DinaDurykina.github.io/ph.png",},
+    "icon":  "https://DinaDurykina.github.io/ph.png"},
   { "http":  "https://DinaDurykina.github.io/kosmostart.json",
-    "icon":  "https://DinaDurykina.github.io/kosmo.png",},
+    "icon":  "https://DinaDurykina.github.io/kosmo.png"},
   { "http":  "https://DinaDurykina.github.io/tl.json",
-    "icon":  "https://DinaDurykina.github.io/tl.png",},
+    "icon":  "https://DinaDurykina.github.io/tl.png"},
   { "http":  "https://DinaDurykina.github.io/calc_Platform_NoImage.json",
-    "icon":  "https://DinaDurykina.github.io/app4webline.png",},
+    "icon":  "https://DinaDurykina.github.io/app4webline.png"},
   { "http":  "https://DinaDurykina.github.io/test.json",
-    "icon":  "https://DinaDurykina.github.io/icons8-test-passed-24.png",},
+    "icon":  "https://DinaDurykina.github.io/icons8-test-passed-24.png"},
   { "http":  "https://DinaDurykina.github.io/br_start.json",
-    "icon":  "https://DinaDurykina.github.io/brazuka.png",},
+    "icon":  "https://DinaDurykina.github.io/brazuka.png"},
   { "http":  "https://DinaDurykina.github.io/tl.json",
-    "icon":  "https://DinaDurykina.github.io/tl.png",}
+    "icon":  "https://DinaDurykina.github.io/tl.png"}
 ]
