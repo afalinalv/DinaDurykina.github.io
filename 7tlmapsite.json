@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "talant",
+      "actions": {
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
+      },
+      "templates": {
+        "body": {
+          "background": {
+            "type": "html",
+            "url": "http://talantiya.ru/contacts",
+            "action": { "trigger": "navigate" }
+          }
+        }
+      }
+    }
+  }
+}
