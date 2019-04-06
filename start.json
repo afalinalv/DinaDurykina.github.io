@@ -1,151 +1,71 @@
 {
   "$jason": {
     "head": {
-      "title": "KOSMO",
+      "title": "TemplateNativeNews",
       "actions": {
-        "$load": {
-          "type": "$set",
-          "options": {
-            "bg": "#9E9E9E"
-          },
-          "success": {
-            "type": "$render"
-          }
-        }
+        "$load":    { "type": "$render" },
+        "navigate": {"type": "$default" }
       },
       "templates": {
         "body": {
           "header": {
-            "style": {
-              "background": "#C5CAE9",
-              "color": "#212121"
-            },
             "title": {
               "type": "image",
               "style": {
                 "align": "left",
                 "left": "20",
-                "width": "120",
-                "height": "50"
+                "width": "12",
+                "height": "12"
               },
-              "url": "https://DinaDurykina.github.io/kosmo-kids_name.png"
-            },
+              "url": "https://DinaDurykina.github.io/squared-menu.png"},
+            "style": {"background": "#A9A9A9"},
             "menu": {
-              "text": "+7(499)397-70-77",
+              "text": "Choose",
               "style": {
-                "color": "#212121",
-                "font": "Roboto",
-                "size": "16"
+                "color": "#0000ff",
+                "font": "HelveticaNeue-Bold",
+                "size": "12"
               },
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": " Сеть билингвальных\n детских садов\n и детских центров"
+                  "text": "Good job!"
                 }
               }
             }
           },
-          "style": {
-            "background": "{{$get.bg}}"
+          "background": {
+            "type": "html",
+            "url": "http://www.brazuka.ru/",
+            "action": { "trigger": "navigate" }
           },
-          "layers": [
-            {
-              "type": "label",
-              "text": " ЖИЗНЬ\n НАЧИНАЕТСЯ \n С НУЛЯ:))",
-              "style": {
-                "background": "rgba(0,0,0,0.0)",
-                "color": "#ffffff",
-                "padding": "10",
-                "left": "10",
-                "font": "Roboto",
-                "size": "28",
-                "bottom": "265"
-              },
-              "action": {
-                "type": "$set",
-                "options": {
-                  "bg": {
-                    "type": "camera"
-                  }
-                },
-                "success": {
-                  "type": "$render"
-                }
-              }
-            },
-            {
-              "type": "label",
-              "text": "Нажмите и мы Вам позвоним!",
-              "style": {
-                "background": "#FF4081",
-                "color": "#ffffff",
-                "width": "310",
-                "height": "50",
-                "padding": "10",
-                "left": "10",
-                "font": "Roboto",
-                "size": "20",
-                "corner_radius": "7",
-                "align": "center",
-                "bottom": "170"
-              },
-              "action": {
-                "type": "$set",
-                "options": {
-                  "bg": "#00ff00"
-                },
-                "success": {
-                  "type": "$render"
-                }
-              }
-            },
-            {
-              "type": "label",
-              "text": "Записать и отправить заявку",
-              "style": {
-                "background": "#C5CAE9",
-                "color": "#212121",
-                "width": "310",
-                "height": "50",
-                "padding": "10",
-                "left": "10",
-                "font": "Roboto",
-                "size": "20",
-                "corner_radius": "7",
-                "align": "center",
-                "bottom": "105"
-              },
-              "action": {
-                "type": "$set",
-                "options": {
-                  "bg": "http://i.giphy.com/Is0AJv4CEj9hm.gif"
-                },
-                "success": {
-                  "type": "$render"
-                }
-              }
-            }
-          ],
+
           "footer": {
             "tabs": {
               "style": {
-                "background": "#FAFAFA",
-                "color": "#9E9E9E"
-              },
-              "items": [
-                {
-                  "image": "https://DinaDurykina.github.io/icons8-instagram-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmovk.json"
+                "background": "#A9A9A9"	},
+              "items": [{
+                "image": "https://DinaDurykina.github.io/copy-2.png",
+                "text": "Note",
+                "style": {
+                  "height": "12"
                 },
-                {
-                  "image": "https://DinaDurykina.github.io/icons8-home-page-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmohome.json"
+                "url":"https://DinaDurykina.github.io/copy2teh.json"
+              }, {
+                "image": "https://DinaDurykina.github.io/translation.png",
+                "text": "Translate",
+                "style": {
+                  "height": "12"
                 },
-                {
-                  "image": "https://DinaDurykina.github.io/icons8-marker-24.png",
-                  "url": "https://DinaDurykina.github.io/7kosmomapsite.json"
-                }
-              ]
+                "url":"https://DinaDurykina.github.io/translate.json"
+              }, {
+                "image": "https://DinaDurykina.github.io/comments.png",
+                "text": "Comment",
+                "style": {
+                  "height": "12"
+                },
+                "url":"https://DinaDurykina.github.io/commentteh.json"
+              }]
             }
           }
         }
