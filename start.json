@@ -28,7 +28,7 @@
                 "align": "right",
                 "left": "20",
                 "width": "12",
-                "height": "12",
+                "height": "12"
               },
               "url": "https://DinaDurykina.github.io/icons8-connect-24.png"
             },
@@ -80,5 +80,4 @@
       }
     }
   }
-}
 }
