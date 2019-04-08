@@ -19,28 +19,28 @@
             },
             "title":
             {
-              "text": "APP4WEB.TEMPLATE.NATIVE",
+              "type": "image",
               "style": {
-                "color": "#424242",
-                "font": "Roboto",
-                "size": "16"
+                "align": "left",
+                "left": "20",
+                "width": "125",
+                "height": "50"
               },
-
+              "url": "https://DinaDurykina.github.io/app4webline.png"
+            },
             "menu":
-            {
-            "type": "image",
-            "style": {
-            "align": "left",
-            "left": "120",
-            "width": "25",
-            "height": "25"
-            },
-            "url": "https://DinaDurykina.github.io/icons8-home-page-24.png"
-            },
+                  {
+                  "text": "Native Wrap",
+                      "style": {
+                      "color": "#424242",
+                        "font": "Roboto",
+                       "size": "16"
+                       },
+
               "action": {
                 "type": "$util.toast",
                 "options": {
-                  "text": "Считать путь страницы с контактами и поставить ссылку на него"
+                  "text": "Что бы выбрать другой шаблон, нажмите меню справа"
                 }
               }
             }
