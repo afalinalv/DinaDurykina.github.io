@@ -52,36 +52,18 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "#0796b",
-                "color": "#000000"
+                "background": "#FF9800",
+                "color": "#212121"
               },
               "items": [
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-camera-24.png",
-                  "action": {
-                    "type": "$util.toast",
-                    "options": {
-                      "text": "Включить камеру, а затем фото сложитьв галерею"
-                    }
-                  }
+                  "image": "https://DinaDurykina.github.io/icons8-camera-24.png"
                 },
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-cut-paper-24.png",
-                  "action": {
-                    "type": "$util.toast",
-                    "options": {
-                      "text": "Сделать скринэкрана и сложить в галерею"
-                    }
-                  }
+                  "image": "https://DinaDurykina.github.io/icons8-cut-paper-24.png"
                 },
                 {
-                  "image": "https://DinaDurykina.github.io/icons8-microphone-24.png",
-                  "action": {
-                    "type": "$util.toast",
-                    "options": {
-                      "text": "Включить микрофон, записать звук, сложить в папку аудио"
-                    }
-                  }
+                  "image": "https://DinaDurykina.github.io/icons8-microphone-24.png"
                 }
               ]
             }
