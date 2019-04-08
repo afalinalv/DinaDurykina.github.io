@@ -52,7 +52,8 @@
           "footer": {
             "tabs": {
               "style": {
-                "background": "#0796b"
+                "background": "#0796b",
+                "color": "#000000"
               },
               "items": [
                 {
