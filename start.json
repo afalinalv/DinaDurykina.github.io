@@ -13,26 +13,27 @@
       "templates": {
         "body": {
           "header": {
+            "style": {
+              "background": "#FF9800",
+              "color": "#212121"
+            },
             "title": {
               "type": "image",
               "style": {
-                "background": "#0796b",
                 "align": "left",
                 "left": "20",
-                "width": "24",
-                "height": "24"
+                "width": "25",
+                "height": "25"
               },
               "url": "https://DinaDurykina.github.io/icons8-home-page-24.png"
             },
             "menu": {
-              "type": "image",
+              "text": "Kontakt",
               "style": {
-                "align": "right",
-                "left": "120",
-                "width": "24",
-                "height": "24"
-              },
-              "url": "https://DinaDurykina.github.io/icons8-connect-24.png"
+                "color": "#424242",
+                "font": "Roboto",
+                "size": "16"
+              }
             },
             "action": {
               "type": "$util.toast",
