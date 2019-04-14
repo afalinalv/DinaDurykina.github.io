@@ -38,5 +38,83 @@
     "icon":  "https://DinaDurykina.github.io/logo_uk_dethleffs.png",
     "head":  "Motorhome",
     "name": "Dethleffs"
+  },{ "http":  "http://www.brazuka.ru/",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКАaaa",
+    "name": "Brazuka"
+  },
+  { "http":  "http://popholst.ru/",
+    "icon":  "https://DinaDurykina.github.io/ph.png",
+    "head":  "ФотоОбои",
+    "name": "Foto"
+  },
+  { "http":  "https://www.kosmo-kids.ru/",
+    "icon":  "https://DinaDurykina.github.io/kosmo.png",
+    "head":  "Детсад",
+    "name":  "kosmo"
+  },
+  { "http":  "http://talantiya.ru/",
+    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "head":  "Детский Клуб",
+    "name": "tl"
+  },
+  { "http":  "http://www.jcgroup.tv/",
+    "icon":  "https://DinaDurykina.github.io/logo.png",
+    "head":  "Ростов",
+    "name": "JCGroup"
+  },
+  { "http":  "http://www.total-interactive.com",
+    "icon":  "https://DinaDurykina.github.io/TIT.png",
+    "head":  "Виталик",
+    "name": "Total"
+  },
+  { "http":  "https://venturepact.com/mobile_app_price_calculator",
+    "icon":  "https://DinaDurykina.github.io/Calc.png",
+    "head":  "Calc",
+    "name":  "Calculator"
+  },
+  { "http":  "https://www.dethleffs.de/en/",
+    "icon":  "https://DinaDurykina.github.io/logo_uk_dethleffs.png",
+    "head":  "Motorhome",
+    "name": "Dethleffs"
+  },{ "http":  "http://www.brazuka.ru/",
+    "icon":  "https://DinaDurykina.github.io/brazuka.png",
+    "head":  "БРАЗУКАaaa",
+    "name": "Brazuka"
+  },
+  { "http":  "http://popholst.ru/",
+    "icon":  "https://DinaDurykina.github.io/ph.png",
+    "head":  "ФотоОбои",
+    "name": "Foto"
+  },
+  { "http":  "https://www.kosmo-kids.ru/",
+    "icon":  "https://DinaDurykina.github.io/kosmo.png",
+    "head":  "Детсад",
+    "name":  "kosmo"
+  },
+  { "http":  "http://talantiya.ru/",
+    "icon":  "https://DinaDurykina.github.io/tl.png",
+    "head":  "Детский Клуб",
+    "name": "tl"
+  },
+  { "http":  "http://www.jcgroup.tv/",
+    "icon":  "https://DinaDurykina.github.io/logo.png",
+    "head":  "Ростов",
+    "name": "JCGroup"
+  },
+  { "http":  "http://www.total-interactive.com",
+    "icon":  "https://DinaDurykina.github.io/TIT.png",
+    "head":  "Виталик",
+    "name": "Total"
+  },
+  { "http":  "https://venturepact.com/mobile_app_price_calculator",
+    "icon":  "https://DinaDurykina.github.io/Calc.png",
+    "head":  "Calc",
+    "name":  "Calculator"
+  },
+  { "http":  "https://www.dethleffs.de/en/",
+    "icon":  "https://DinaDurykina.github.io/logo_uk_dethleffs.png",
+    "head":  "Motorhome",
+    "name": "Dethleffs"
   }
 ]
