@@ -1,5 +1,6 @@
 {
-  "_VersionSetting" : "DD 1.0",
+  "Test1" : "test1  DD test 1.",
+  "_VersionSetting"  : " DD test 0.1",
 "Logo": "https://DinaDurykina.github.io/app4webline.png",      
 "Reclama": "false",
 "AdMob_BANNER": "true",
