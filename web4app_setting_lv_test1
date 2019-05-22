@@ -1,0 +1,27 @@
+{
+  "Test1": "test1 DD test 1.",
+  "_VersionSetting": "DD test 0.1 ",
+"Logo": "https://DinaDurykina.github.io/app4webline.png ", 
+"Reclama": "false ",
+"AdMob_BANNER": "true ",
+"ID_APP": "ca-app-pub-4136371087370112~6171379650 ",
+"id_BANNER0": "ca-app-pub-4136371087370112/2298996526 ",
+"MyBANNER": "HTTP ",
+"OtherReclama": "true ",
+"http_setting": "https://DinaDurykina.github.io/web4app_setting.json ",
+"http_gorizont": "https://DinaDurykina.github.io/web4app_gorizont.json ",
+"http_vertical": "https://DinaDurykina.github.io/web4app_vertical.json ", 
+  "Шаблон": [
+"Mobile ",
+"Native",
+"Reactive",
+"Reactive Native",
+"Native tab",
+"Reactive tab ",
+"Reactive Native tab"
+],
+"NoIcon": "https://DinaDurykina.github.io/icons8-глобус-24.png ",
+"Тост": "ложь ",
+"Snekbar": "true ",
+"Push": "true"
+}
